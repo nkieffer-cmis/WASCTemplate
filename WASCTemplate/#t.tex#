@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{packages/parallel,enumitem,blindtext}
+\usepackage{graphicx}
+\setlist{leftmargin=0.80\textwidth}
+
+\begin{document}
+\begin{Parallel}{0.74\textwidth}{0.24\textwidth} % remove [v] if you don't need a vertical line
+\ParallelLText{
+\blindtext
+
+\blindtext
+
+\blindtext
+
+\noindent\includegraphics[width=0.74\textwidth]{example-image-a}
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth] %defined by \setlist in preamble
+  \item{editor}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+\ParallelLText{
+\blindtext
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth]
+  \item{Judge}
+  \item{Jury}
+  \item{Executioner}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+\ParallelLText{
+\blindtext
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth] %defined by \setlist in preamble
+  \item{editor}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+\ParallelLText{
+\blindtext
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth]
+  \item{Judge}
+  \item{Jury}
+  \item{Executioner}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+\ParallelLText{
+\blindtext
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth] %defined by \setlist in preamble
+  \item{editor}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+\ParallelLText{
+\blindtext
+}
+%
+\ParallelRText{%
+\begin{itemize}%[label=*,leftmargin=0.31\textwidth]
+  \item{Judge}
+  \item{Jury}
+  \item{Executioner}
+\end{itemize}}
+\ParallelPar
+\bigskip
+%---------------------
+
+\end{Parallel}
+
+\end{document}

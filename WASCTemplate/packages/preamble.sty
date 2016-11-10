@@ -1,0 +1,87 @@
+\ProvidesPackage{preamble}
+\usepackage{geometry}
+\usepackage{mwe}
+\usepackage{parallel}
+\usepackage{paralist}
+\usepackage{enumitem} 
+\setlist[itemize]{noitemsep, topsep=-100pt}
+\setlist{leftmargin=0.80\textwidth}
+\usepackage{import}
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+  \put(0,0){%
+    \parbox[b][\paperheight]{\paperwidth}{%
+      \vfill
+      \centering
+      \includegraphics[width=\paperwidth,height=\paperheight,%
+        keepaspectratio]{bg.jpg}%
+      \vfill
+}}}
+\usepackage{xcolor}
+\definecolor{sectHead}{rgb}{0.6,0.1,0.7}
+
+\usepackage{sectsty}
+\allsectionsfont{\sffamily}
+\chapterfont{\color{white}\sffamily}
+\sectionfont{\color{sectHead}\sffamily}
+\subsectionfont{\color{sectHead}\sffamily}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{\baselineskip}
+\usepackage{blindtext}
+%\usepackage{color}
+%%\usepackage{marginnote}
+%%\makeatletter
+%%\let\oldmarginnote\marginnote
+%%\renewcommand*{\marginnote}[1]{%
+%%    \begingroup%
+%% %   \checkoddpage
+%%    \ifoddpage
+%%      \if@firstcolumn\reversemarginpar\fi
+%%    \else
+%%      \if@firstcolumn\else\reversemarginpar\fi
+%%    \fi
+%%    \oldmarginnote{#1}%
+%%    \endgroup%
+%% }
+%% \makeatother
+%% %\usepackage[all]{background}
+%% \renewcommand*{\marginfont}{\tiny\sffamily}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usepackage{scrpage2}
+%\usepackage{sidenotes}
+%\usepackage{mwe}
+
+%% \newcommand{\Rectangle}{%
+%%   \begin{tikzpicture}[remember picture, overlay,draw=black,ultra thick]
+%%     \checkoddpage
+    
+%%     \ifoddpage
+%%     \shade[left color=violet, right color=white] (current page.north west) rectangle (current page.south east);    
+%%     \fill[white] ($(current page.north west)+(1cm,-2cm)$) rectangle (current page.south east);   
+%%     %\draw[blue,fill=blue] (0,-\paperheight) rectangle (1,5);
+%%     \node[text=white,right,rotate=-90] at ($(current page.west)+(0.5cm,0)$)
+%%     {\begin{minipage}{2in}
+%%         minipage
+%%     \end{minipage}};\else
+%%     \shade[left color=white, right color=violet] (current page.north west) rectangle (current page.south east);    
+%%     \fill[white] ($(current page.north west)+(0cm,-2cm)$) rectangle ($(current page.south east)+(-1cm, 0cm)$);  
+%%     %\draw[blue,fill=blue] (\paperwidth,-\paperheight) rectangle (1,5);
+%%     \node[text=white,left,rotate=90] at ($(current page.east)+(-0.5,0)$)
+%%     {\begin{minipage}{2in}
+%%         \thesection
+%%     \end{minipage}};
+%%     \fi  
+    
+    
+%%   \end{tikzpicture}
+%% }
+
+%\newcommand{\nextitem}{\par\hspace*{\labelsep}\textbullet\hspace*{\labelsep}}
+%\SetBgContents{\Rectangle}
+%\SetBgPosition{current page.north west}
+%\SetBgOpacity{1.0}
+%\SetBgAngle{0.0}
+%\SetBgScale{1.0}

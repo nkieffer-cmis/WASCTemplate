@@ -1,0 +1,20 @@
+import sys
+
+longtable = """
+\begin{longtable}{ f m{2in} }
+\textbf{Findings}       & \textbf{Evidence}  \\
+%s
+\end{longtable}
+"""
+
+row = """
+%s\t&\t%s \\
+"""
+
+fn = sys.argv[1]
+
+content_text = fn.read();
+
+for line in content_text:
+    print line
+

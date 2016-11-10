@@ -1,0 +1,14 @@
+\documentclass{report}
+\title{WASC Self Report 2016-2017}
+\author{Nathan Kieffer}
+\date{21/10/2016}
+\usepackage{packages/preamble}
+
+\begin{document}
+\maketitle
+\input{sections}
+%\foreach \i in {1, 2}{
+%\include{sections/sec\i/sec\i}
+%}
+%\include{sections/sec2}
+\end{document}

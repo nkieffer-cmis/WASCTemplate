@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}Usage}{3}
+\contentsline {subsection}{\numberline {1.1}Simple Usage -- for the Impatient}{3}
+\contentsline {subsection}{\numberline {1.2}Advanced Usage}{3}
+\contentsline {section}{\numberline {2}Limitations, Warnings}{4}
+\contentsline {section}{\numberline {3}Todo-List}{5}
+\contentsline {section}{\numberline {4}Documentation-Driver}{5}
+\contentsline {section}{\numberline {5}macro package source code}{6}
+\contentsline {subsection}{\numberline {5.1}implementation rules}{6}
+\contentsline {subsection}{\numberline {5.2}preamble}{6}
+\contentsline {subsection}{\numberline {5.3}lengths}{6}
+\contentsline {subsection}{\numberline {5.4}boxes}{7}
+\contentsline {subsection}{\numberline {5.5}tokens}{7}
+\contentsline {subsection}{\numberline {5.6}counts}{7}
+\contentsline {subsection}{\numberline {5.7}options}{8}
+\contentsline {subsection}{\numberline {5.8}internal commands}{8}
+\contentsline {subsubsection}{\numberline {5.8.1}footnotes}{8}
+\contentsline {subsubsection}{\numberline {5.8.2}typesetting on one page}{10}
+\contentsline {subsubsection}{\numberline {5.8.3}typesetting on two page}{11}
+\contentsline {subsection}{\numberline {5.9}user commands}{12}
+\contentsline {subsection}{\numberline {5.10}Environment ``Parallel''}{13}
+\contentsline {subsection}{\numberline {5.11}postamble, settings}{16}
+\contentsline {section}{\numberline {6}examples for \texttt {parallel.sty}}{17}
+\contentsline {subsection}{\numberline {6.1}typesetting in columns}{17}
+\contentsline {subsection}{\numberline {6.2}typesetting on two pages}{17}
+\contentsline {subsection}{\numberline {6.3}Common Text for the two Examples}{17}
+\contentsline {subsection}{\numberline {6.4}Final commands}{18}
+\contentsline {section}{\numberline {7}Sample-text}{18}

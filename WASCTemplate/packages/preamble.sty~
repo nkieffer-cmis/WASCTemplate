@@ -1,0 +1,70 @@
+\ProvidesPackage{preamble}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+\usepackage{import}
+\usepackage{sidenotes}
+\usepackage{nameref}
+\usepackage{changepage}
+\strictpagecheck
+
+\usepackage[textwidth=6in,inner=1in,outer=3in, top=2in]{geometry}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\usepackage{blindtext}
+\usepackage{multicol}
+\setlength{\columnsep}{0.5cm}
+\usepackage{color}
+\usepackage{marginnote}
+\makeatletter
+\let\oldmarginnote\marginnote
+\renewcommand*{\marginnote}[1]{%
+   \begingroup%
+%   \checkoddpage
+   \ifoddpage
+     \if@firstcolumn\reversemarginpar\fi
+   \else
+     \if@firstcolumn\else\reversemarginpar\fi
+   \fi
+   \oldmarginnote{#1}%
+   \endgroup%
+}
+\makeatother
+\usepackage[all]{background}
+\renewcommand*{\marginfont}{\tiny\sffamily}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usepackage{scrpage2}
+%\usepackage{sidenotes}
+\usepackage{mwe}
+
+\newcommand{\Rectangle}{%
+  \begin{tikzpicture}[remember picture, overlay,draw=black,ultra thick]
+    \checkoddpage
+    
+    \ifoddpage
+    \shade[left color=violet, right color=white] (current page.north west) rectangle (current page.south east);    
+    \fill[white] ($(current page.north west)+(1cm,-2cm)$) rectangle (current page.south east);   
+    %\draw[blue,fill=blue] (0,-\paperheight) rectangle (1,5);
+    \node[text=white,right,rotate=-90] at ($(current page.west)+(0.5cm,0)$)
+    {\begin{minipage}{2in}
+        minipage
+    \end{minipage}};\else
+    \shade[left color=white, right color=violet] (current page.north west) rectangle (current page.south east);    
+    \fill[white] ($(current page.north west)+(0cm,-2cm)$) rectangle ($(current page.south east)+(-1cm, 0cm)$);  
+    %\draw[blue,fill=blue] (\paperwidth,-\paperheight) rectangle (1,5);
+    \node[text=white,left,rotate=90] at ($(current page.east)+(-0.5,0)$)
+    {\begin{minipage}{2in}
+        \thesection
+    \end{minipage}};
+    \fi  
+    
+    
+  \end{tikzpicture}
+}
+
+\SetBgContents{\Rectangle}
+\SetBgPosition{current page.north west}
+\SetBgOpacity{1.0}
+\SetBgAngle{0.0}
+\SetBgScale{1.0}
