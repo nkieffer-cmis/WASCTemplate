@@ -1,0 +1,231 @@
+\documentclass{report}
+\title{WASC Self-Study Report}
+\date{November 16, 2016}
+\author{CMIS}
+\usepackage{graphicx}
+\usepackage{paracol}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage}
+\cfoot{\leftmark}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{%
+  pdftitle=WASC Self Report,
+  colorlinks=true,
+  urlcolor=cyan,
+  urlbordercolor=magenta
+}
+\setlength{\parskip}{1em}
+\begin{document}
+
+\maketitle
+
+\chapter{Self-Study Findings}
+\section{Organization for Student Learning}
+\columnratio{0.7}
+\blindtext
+
+\blindtext
+ 
+\begin{paracol}{2}[\subsection{Current Educational Research and Thinking}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\begin{paracol}{2}[\subsection{Academic Standards for Each Area}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+\noindent\textbf{Findings}
+
+\blindtext
+
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\begin{comment}
+\begin{paracol}{2}[\subsection{Congruence}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\section{ Curriculum, Instruction, and Assessment Category}
+\columnratio{0.7}
+\blindtext
+
+\blindtext
+ 
+\begin{paracol}{2}[\subsection{Current Educational Research and Thinking}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\begin{paracol}{2}[\subsection{Academic Standards for Each Area}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+\noindent\textbf{Findings}
+
+\blindtext
+
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\begin{paracol}{2}[\subsection{Congruence}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}]
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\switchcolumn
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\end{paracol}
+\end{comment}
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass{report}
+\usepackage{paracol}
+\usepackage{blindtext}
+\begin{document}
+\begin{column*}
+
+\blindtext
+
+\end{column*}
+\begin{column}
+\blindlist{itemize}[5]
+\end{column}
+\end{document}

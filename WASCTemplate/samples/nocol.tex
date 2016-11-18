@@ -1,0 +1,1300 @@
+\documentclass{report}
+\title{WASC Self-Study Report}
+\date{November 16, 2016}
+\author{CMIS}
+\usepackage{tabularx,colortbl,array}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+%\usepackage{paracol}
+\usepackage{blindtext}
+%\usepackage{capt-of}
+\usepackage{subfig}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage[most]{tcolorbox}
+\newtcolorbox{evidenceBox}{%
+  colback=black!5,
+  colbacktitle=violet,
+  boxrule=1pt,
+ % boxsep=0.5em,
+  top=1em,
+  breakable,
+  arc=4pt,
+  outer arc=4pt,
+  title=Evidence}
+\newenvironment{findings}
+{\begin{findingsBox}
+}
+{
+\end{findingsBox}
+}
+
+\newenvironment{evidence}
+{
+\begin{evidenceBox}
+}
+{
+\end{evidenceBox}
+}
+
+\usepackage{float}
+\usepackage{wrapfig}
+\floatstyle{boxed} 
+\restylefloat{figure}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage}
+\cfoot{\leftmark}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{%
+  pdftitle=WASC Self Report,
+  colorlinks=true,
+  urlcolor=cyan,
+  urlbordercolor=magenta
+}
+\setlength{\parskip}{1em}
+
+\makeatletter
+\ifnum\inputlineno=\m@ne
+\let\showlineno\@empty
+\else
+\def\showlineno{ line \the\inputlineno}
+\fi
+\makeatother
+
+\newenvironment{tbl}[2]
+{
+\jobname\showlineno
+
+\rowcolors{2}{lightgray}{white}
+\tabularx{#1}{#2}
+\rowcolor{darkgray}
+}
+{
+\endtabularx
+}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\chapter{Preface}
+
+\begin{tbl}{\textwidth}{|X|X|X|}
+\textbf{\color{white}this} & \textbf{\color{white}that}& \textbf{\color{white}the other thing} \\
+this&that&the other thing\\1&2&3\\a&b&c\\yes&no&maybe\\
+\hline
+\end{tbl}
+
+
+\chapter{Student/Community Profile and Supporting Data and Findings}
+\chapter{Progress Report}
+\chapter[Student/Community Profile Summary]{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
+\chapter{Self-Study Findings}
+\section{Orgianization for Student Learning}
+\section{Curriculum, Instruction, and Assessment}
+\subsection{Current Educational Research and Thinking}
+\blindtext
+
+See Figure \ref{fig:fig1}.
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c ||| c}
+This & That & The other thing \\
+\hline\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{evidence}
+%\noindent\textbf{Evidence}%
+  \vspace{-\topsep}%
+
+  \begin{itemize}[leftmargin=*]
+    \setlength{\parskip}{0pt}
+    \setlength{\itemsep}{0pt plus 1pt}
+  \item \blindtext
+  \item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+  \item This is the compelling evidence.
+  \end{itemize}
+
+%  \begin{figure}[h!]
+%  \tcblower
+  \captionsetup{type=figure}
+  \includegraphics[width=\textwidth]{example-image}
+  \caption{An example image}\label{fig:fig1}
+%  \end{figure}
+
+
+\end{evidence}
+%------------------------------------------------------------------%
+\begin{comment}
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Academic Standards for Each Area}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Embedded Global Perspectives}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Congruence}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Student Work -- Engagement in Learning}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Curricular Review, Revision, and Evaluation}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Collaborative Work}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Articulation and Follow-up Studies}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Research-based Knowledge}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\subsection{Planning Process}
+\blindtext
+
+\blindtext
+ 
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item \blindtext
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\blindtext
+
+\begin{table}[!h]
+\begin{tabular}{c | c || c}
+This & That & The other thing \\
+\hline
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+12   &  24  &  36 \\
+\end{tabular}
+\end{table}
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \href{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}{Folder}
+\item This is the compelling evidence.
+\end{itemize}
+
+\noindent\textbf{Indicator:} Some indicator text.
+
+\noindent\textbf{Prompt:} \textit{Some indicator text.}
+\noindent\textbf{Findings}
+
+\blindtext
+
+\blinditemize[6]
+
+\blindtext
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+
+
+\noindent\textbf{Evidence}
+\vspace{-\topsep}
+
+\begin{itemize}[leftmargin=*]
+\setlength{\parskip}{0pt}
+\setlength{\itemsep}{0pt plus 1pt}
+\item Some stuff about something.
+\item \url{https://drive.google.com/a/cmis.ac.th/folderview?id=0ByVFfrm0zfolWE0yenprdktGVlk&usp=sharing}
+\item This is the compelling evidence.
+\end{itemize}
+
+\begin{figure}[h!]
+\caption[An example image]{An example image}
+\centering
+\includegraphics[width=\textwidth]{example-image}
+\end{figure}
+\end{comment}
+
+\section{Support for Student and Personal Academic Growth}
+\section{Resource Management and Development}
+\chapter{Schoolwide Action Plan}
+\chapter{Appendix}
+\listoffigures
+\end{document}

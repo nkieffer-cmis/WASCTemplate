@@ -1,34 +1,47 @@
 \ProvidesPackage{preamble}
+\usepackage{import}
 \usepackage{geometry}
+
+\usepackage{hyperref}
+
 \usepackage{mwe}
 \usepackage{parallel}
 \usepackage{paralist}
 \usepackage{enumitem} 
-\setlist[itemize]{noitemsep, topsep=-100pt}
-\setlist{leftmargin=0.80\textwidth}
-\usepackage{import}
-\usepackage{eso-pic}
-\newcommand\BackgroundPic{%
-  \put(0,0){%
-    \parbox[b][\paperheight]{\paperwidth}{%
-      \vfill
-      \centering
-      \includegraphics[width=\paperwidth,height=\paperheight,%
-        keepaspectratio]{bg.jpg}%
-      \vfill
-}}}
+%\setlist[itemize]{noitemsep, topsep=-1em}
+\setlist{leftmargin=0.80\textwidth}%,nolistsep}
+%% \usepackage{eso-pic}
+%% \newcommand\BackgroundPic{%
+%%   \put(0,0){%
+%%     \parbox[b][\paperheight]{\paperwidth}{%
+%%       \vfill
+%%       \centering
+%%       \includegraphics[width=\paperwidth,height=\paperheight,%
+%%         keepaspectratio]{bg.jpg}%
+%%       \vfill
+%% }}}
 \usepackage{xcolor}
 \definecolor{sectHead}{rgb}{0.6,0.1,0.7}
 
 \usepackage{sectsty}
 \allsectionsfont{\sffamily}
-\chapterfont{\color{white}\sffamily}
+\chapterfont{\sffamily}
 \sectionfont{\color{sectHead}\sffamily}
 \subsectionfont{\color{sectHead}\sffamily}
 
 \setlength{\parindent}{2em}
-\setlength{\parskip}{\baselineskip}
+\setlength{\parskip}{1em}
+\setlength{\parsep}{1em}
 \usepackage{blindtext}
+
+\newcommand\Findings{%
+\noindent\textbf{Findings}%
+}
+
+\newcommand\Evidence{%
+\noindent\textbf{Evidence}%
+}
+
 %\usepackage{color}
 %%\usepackage{marginnote}
 %%\makeatletter
@@ -47,10 +60,10 @@
 %% \makeatother
 %% %\usepackage[all]{background}
 %% \renewcommand*{\marginfont}{\tiny\sffamily}
-\usepackage{tikz}
-\usepackage{tikzpagenodes}
-\usetikzlibrary{calc}
-\usepackage{scrpage2}
+%%\usepackage{tikz}
+%%\usepackage{tikzpagenodes}
+%%\usetikzlibrary{calc}
+%%\usepackage{scrpage2}
 %\usepackage{sidenotes}
 %\usepackage{mwe}
 

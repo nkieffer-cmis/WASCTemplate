@@ -1,0 +1,37 @@
+\documentclass{report}
+\title{WASC Self-Study Report}
+\date{November 16, 2016}
+\author{CMIS}
+\usepackage{graphicx}
+\usepackage{paracol}
+\usepackage{blindtext}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{Page \thepage}
+\cfoot{\leftmark}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{%
+  pdftitle=WASC Self Report,
+  colorlinks=true,
+  urlcolor=cyan,
+  urlbordercolor=magenta
+}
+\setlength{\parskip}{1em}
+
+\begin{document}
+\maketitle
+\chapter{Preface}
+\chapter{Student/Community Profile and Supporting Data and Findings}
+\chapter{Progress Report}
+\chapter{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
+\chapter{Self-Study Findings}
+\section{Orgianization for Student Learning}
+\section{Curriculum, Instruction, and Assessment}
+\section{Support for Student and Personal Academic Growth}
+\section{Resource Management and Development}
+\chapter{Schoolwide Action Plan}
+\end{document}

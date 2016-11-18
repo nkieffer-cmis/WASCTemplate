@@ -1,0 +1,31 @@
+\AddToShipoutPicture*{\BackgroundPic}
+\chapter{Self Study Findings: Student Support}
+\newpage
+\section{Support for Student Personal and Academic Growth}\label{sec:first}
+This section describes Support for Student Personal and Academic Growth.
+\subsection{Caring, Concern, High Expectations}
+This section describes Support for Student Personal and Academic Growth. This section describes Support for Student Personal and Academic Growth. This section describes Support for Student Personal and Academic Growth. This section describes Support for Student Personal and Academic Growth.
+This section describes Support for Student Personal and Academic Growth.
+
+\begin{longtable}{ f m{2in} }
+\textbf{Findings}       & \textbf{Evidence}  \\
+\blindtext              & \blindlist{itemize}[5] \\ [2em]
+\blindtext              & \blindlist{itemize}[5] \\ [2em]
+\blindtext              & \blindlist{itemize}[5] \\ [2em]
+\blindtext              & \blindlist{itemize}[5] \\ [2em]
+\blindtext              & 
+\begin{itemize}
+\item This
+\item That
+\item The
+\item Other
+\item Thing
+\end{itemize}
+ \\ [2em]
+
+\end{longtable}
+
+  
+
+
+

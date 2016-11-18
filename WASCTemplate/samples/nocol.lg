@@ -1,0 +1,9 @@
+htfcss: cmti  font-style: italic;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmtt font-family: monospace;
+File: nocol.html
+File: nocol.css
+File: nocol.tmp
+File: nocol.tmp
+File: nocol.tmp
