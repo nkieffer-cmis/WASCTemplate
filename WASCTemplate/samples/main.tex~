@@ -1,0 +1,12 @@
+\documentclass{report}
+\usepackage{import}
+\usepackage{blindtext}
+\title{structure test}
+\author{Nathan Kieffer}
+\date{\day/\month/\year}
+\begin{document}
+\maketitle
+\import{chapters}{ch1}
+\import{chapters}{ch2}
+
+\end{document}

@@ -1,0 +1,83 @@
+\usepackage[most]{tcolorbox}
+\usepackage{marginnote}
+\usepackage{booktabs}
+\newcommand{\debug}{%
+        \marginnote{%
+                \begin{debugBox}%
+                        \jobname\showlineno%
+                \end{debugBox}%
+        }%
+}
+
+\newtcolorbox{evidenceBox}{%
+  colback=black!5,
+  colbacktitle=violet,
+  boxrule=1pt,
+  top=1em,
+  breakable,
+ % arc=4pt,
+ % outer arc=4pt,
+  title=Evidence
+}
+
+\newtcolorbox{findingsBox}{%
+  colback=white,%black!5,
+  colbacktitle=red,
+  boxrule=1pt,
+ % boxsep=1pt,
+ % top=1em,%-0.5\baselineskip,
+  breakable,
+ % arc=4pt,
+ % outer arc=4pt,
+  title=Findings
+}
+
+\newtcolorbox{debugBox}{%
+        colback=yellow,
+        title=DEBUG
+}
+        
+
+\newenvironment{findings}
+{
+\debug
+\noindent\textbf{Findings}
+
+}
+{
+%\end{findingsBox}
+}
+
+\newenvironment{evidence}
+{
+\debug
+\begin{evidenceBox}
+\vspace{-\topsep}
+\begin{itemize}[leftmargin=*]
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{1pt}
+}
+{
+\end{itemize}
+\end{evidenceBox}
+%\vspace{4em}
+}
+
+
+\newcommand{\indicator}[1]{ 
+\noindent\textbf{Indicator:} #1
+}
+
+\newcommand{\prompt}[1]{ 
+\noindent\textbf{Prompt:} \textit{#1}
+}
+
+\newenvironment{tbl}[2]
+{
+%\rowcolors{2}{lightgray}{white}
+\tabularx{#1}{#2}
+%\rowcolor{darkgray}
+}
+{
+\endtabularx
+}

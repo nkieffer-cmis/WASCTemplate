@@ -1,0 +1,11 @@
+\newenvironment{findings}
+{\noindent\textbf{Findings}}
+{}
+
+\newenvironment{evidence}
+{\noindent\textbe{Evidence}
+\vspace{-\topsep}
+\begin{itemize}[leftmargin=*]
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 1pt}}
+{\end{itemize}}
