@@ -1,0 +1,13 @@
+\subsection{${subsection}}
+
+\indicator{${indicator}}
+
+\prompt{${prompt}}
+
+\begin{findings}
+${findings}
+\end{findings}
+
+\begin{evidence}
+${evidence}
+\end{evidence}

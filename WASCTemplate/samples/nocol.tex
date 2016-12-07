@@ -3,8 +3,10 @@
 \date{November 16, 2016}
 \author{CMIS}
 \usepackage{tabularx,colortbl,array}
+\usepackage[labelfont=bf]{caption}
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
+\usepackage{pgfplots}
 %\usepackage{paracol}
 \usepackage{blindtext}
 %\usepackage{capt-of}
@@ -45,14 +47,6 @@
 
 \tableofcontents
 \chapter{Preface}
-
-\begin{tbl}{\textwidth}{|X|X|X|}
-\textbf{\color{white}this} & \textbf{\color{white}that}& \textbf{\color{white}the other thing} \\
-this&that&the other thing\\1&2&3\\a&b&c\\yes&no&maybe\\
-\hline
-\end{tbl}
-
-
 \chapter{Student/Community Profile and Supporting Data and Findings}
 \chapter{Progress Report}
 \chapter[Student/Community Profile Summary]{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
@@ -227,15 +221,16 @@ The library provides books on multiple global issues and from a wide variety of 
 \indicator{There is congruence between the actual concepts and skills taught, the academic standards, and the schoolwide learner outcomes.}
 
 \prompt{Evaluate if there is congruence between the actual concepts and skills taught, the academic standards, and the schoolwide learner outcomes.}
+
 \begin{findings}
 CMIS Leadership and teaching staff ensure congruence between the actual concepts and skills taught, the academic standards, and the schoolwide learner outcomes through a variety of methods. 
 
 Much of the professional development and teacher work for the past two years has focused on unpacking the literacy standards as all teachers are responsible student success in reading, writing, and speaking/listening. As we focused on understanding the standards, certain structures were created to ensure fidelity to concepts/skills, standards, and SLOs. 
 
-First, was the continuation of the Understanding by Design unit development initiative begun in 2013-2014. The traditional UbD template ensures that teacher/designers address in Stage 1: established goals, skills and knowledge, essential questions, and understandings. Stage 2: assessment, and Stage 3: learning plan. Though CMIS teachers used this general UbD template to ensure alignment with these essential, researched-based elements of UbD, a handful of modifications were added to the template to ensure congruence between our skills/knowledge, our adopted standards, and the SLOs; see Table 1 below. 
+First, was the continuation of the Understanding by Design unit development initiative begun in 2013-2014. The traditional UbD template ensures that teacher/designers address in Stage 1: established goals, skills and knowledge, essential questions, and understandings. Stage 2: assessment, and Stage 3: learning plan. Though CMIS teachers used this general UbD template to ensure alignment with these essential, researched-based elements of UbD, a handful of modifications were added to the template to ensure congruence between our skills/knowledge, our adopted standards, and the SLOs; see Table \ref{table:tab1} below. 
+%\begin{comment}
 
-\begin{tbl}{\textwidth}{XXX}
- UbD Unit Section & Modifications to Traditional Ubd Section to Ensure Congruency& Rationale \\
+\begin{tbl}{\textwidth}{XXX}{test caption}{table:tab1}%{\captionof{table}{UbD Unit Revisions Since 2015 to Address Congruency}\label{table:tab1}}
 \toprule[3px]
 Established Goals &
 Separate out Primary and Secondary Standards &
@@ -264,12 +259,10 @@ Teachers and Leadership felt strongly that the most effective way to teach SLOs 
 \bottomrule
 \end{tbl}
 
+
+%\end{comment}
+
 Secondly, CMIS Leadership and Teaching Staff have implemented the Datawise Process. Using this process, CMIS has created school data teams of teachers and administrators who make use of performance data and other information to target educational questions to pursue, identify major gaps in student understanding, identify target areas called learner-centered problems (LCP), reframe learner-centered problems as problems of practice (POP), target solutions to problems of practice, and write action plans pinpointing how broadly solutions will be implemented, how they can be implemented and adapted across grade levels and content areas, and on what timelines they will be carried out. 
-\begin{evidence}
-\item McTighe, Jay, and Elliot Seif. "A Summary of Underlying Theory and Research Base for Understanding by Design by Jay McTighe and Elliott Seif." A Summary of Underlying Theory and Research Base for Understanding by Design by Jay McTighe and Elliott Seif. Jay McTighe Educational Associates, 2002. Web. 4 Apr. 2016. \url{http://jaymctighe.com/wordpress/wp-content/uploads/2011/04/UbD-Research-Base.pdf}
-\item Nel has photos
-\item Houdett, Kathryn Parker, Elizabeth A. City, and Richard J. Murnane. Data Wise. Cambridge: Harvard Education, 2013. Print. \url{http://isites.harvard.edu/icb/icb.do?keyword=datawise&pageid=icb.page555331}
-\end{evidence}
 
 CMIS Leadership and Teaching Staff used 2014-2015 ISA data to develop a CMIS specific schoolwide LCP, created a schoolwide POP, each department created a strategy to address the POP, and assessed throughout the 2015-2016. Based upon teacher feedback and achievement data, the 2016-2017 year Datawise program was modified to allow each department to determine their LCP and POP based upon department specific data. The departments’ Datawise plan is currently being implemented. By using the Datawise process, the CMIS Leadership the Teaching Staff have ensured academic outcomes (i.e. standardized test data) are used to make instructional decisions that were based upon students’ skills/ concepts, and standards. 
 
@@ -283,9 +276,62 @@ Review the SLOs during teacher orientation (2016-2017) and plan implementation f
 \item Nel has photos
 \item Houdett, Kathryn Parker, Elizabeth A. City, and Richard J. Murnane. Data Wise. Cambridge: Harvard Education, 2013. Print. \url{http://isites.harvard.edu/icb/icb.do?keyword=datawise&pageid=icb.page555331}
 \end{evidence}
+
+\subsection{Student Work--Engagement in Learning}
+\indicator{The school’s examination of representative samples of student work and snapshots of student engagement in learning demonstrates the implementation of a standards-based curriculum and the schoolwide learner outcomes.}
+
+\prompt{Evaluate to what extent the examination of representative samples of student work and snapshots of student engagement in learning demonstrate the implementation of a standards-based curriculum and the addressing of the schoolwide learner outcomes.}
+
+\begin{findings}
+CMIS Leadership and Teaching Staff engage in the examination of representative samples of student work and snapshots of student engagement in learning that demonstrates the implementation of a standards-based curriculum and the schoolwide learner outcomes.
+
+CMIS Teachers continue to use student work to make informed instructional decisions. CMIS Leadership has implemented multiple research-based instruments to examine student work to ensure  alignment to student learner outcomes and CMIS standards; also to ensure effective collaboration. Professional discussions about looking at student work  balance professional development about how and why looking at student work is important and the opportunity to examine student work. CMIS continues to discuss the importance of looking at data critically, without judgement, over interpretation, keeping it private, or ”taking it” personally. To address this need, research journals were read and discussed. 
+
+CMIS Teaching Staff have used the adapted Longfellow Slice as well as CMIS teacher created protocol-called the CMIS Slice (in development). CMIS Leadership uses norms from National School Reform Faculty and Annenberg Learner’s Critical Friends Group. Student Learner Outcomes were also examined in context of examining student work. Data from these discussions indicates that student learner outcomes could be more explicitly addressed in student work. Also, a teacher and leadership discussion suggests that CMIS teachers and students would benefit from utilizing one examining student work protocol to be consistent. 
+
+The Student Support department consistently use student samples to assist students in meeting or exceeding the academic standards. 
+\end{findings}
+
+\begin{evidence}
+\item Some Guidelines for Learning From Student Work Adapted from HORACE, November 1996, p.2. 
+\item Purpose of the Adapted Longfellow Slice (aka the CMIS Slice)
+\item Swanson, Kristen, Allen Gayle, and Mancabelli Rob. "Eliminating the Blame Game." Educational Leadership 73.3 (2015): 68-71. ASCD.org. Web. 3 Mar. 2016.
+\item MacDonald, Elisa. "WHEN NICE WON’T SUFFICE Honest Discourse Is Key to Shifting School Culture." Journal of Staff Development 32.3 (2011): 45-51. Learning Forward. Learning Forward. Web. 22 Nov. 2015.
+\end{evidence}
 \section{Support for Student and Personal Academic Growth}
 \section{Resource Management and Development}
+\subsection{Congruence}
+
+\indicator{There is congruence between the actual concepts and skills taught,the academic standards, and the schoolwide learner outcomes.}
+
+\prompt{Evaluate if there is congruence between the actual concepts and skills taught, the academic standards, and the schoolwide learner outcomes.}
+
+\begin{findings}
+
+CMIS Leadership and teaching staff ensure congruence between the actual concepts and skills taught, the academic standards, and the schoolwide learner outcomes through a variety of methods. 
+
+Much of the professional development and teacher work for the past two years has focused on unpacking the literacy standards as all teachers are responsible student success in reading, writing, and speaking/listening. As we focused on understanding the standards, certain structures were created to ensure fidelity to concepts/skills, standards, and SLOs.
+
+First, was the continuation of the Understanding by Design unit development initiative begun in 2013-2014. The traditional UbD template ensures that teacher/designers address in Stage 1: established goals, skills and knowledge, essential questions, and understandings. Stage 2: assessment, and Stage 3: learning plan. Though CMIS teachers used this general UbD template to ensure alignment with these essential, researched-based elements of UbD, a handful of modifications were added to the template to ensure congruence between our skills/knowledge, our adopted standards, and the SLOs; see Table below. 
+
+Secondly, CMIS Leadership and Teaching Staff have implemented the Datawise Process. Using this process, CMIS has created school data teams of teachers and administrators who make use of performance data and other information to target educational questions to pursue, identify major gaps in student understanding, identify target areas called learner-centered problems (LCP), reframe learner-centered problems as problems of practice (POP), target solutions to problems of practice, and write action plans pinpointing how broadly solutions will be implemented, how they can be implemented and adapted across grade levels and content areas, and on what timelines they will be carried out. 
+
+CMIS Leadership and Teaching Staff used 2014-2015 ISA data to develop a CMIS specific schoolwide LCP, created a schoolwide POP, each department created a strategy to address the POP, and assessed throughout the 2015-2016. Based upon teacher feedback and achievement data, the 2016-2017 year Datawise program was modified to allow each department to determine their LCP and POP based upon department specific data. The departments' Datawise plan is currently being implemented. By using the Datawise process, the CMIS Leadership the Teaching Staff have ensured academic outcomes (i.e. standardized test data) are used to make instructional decisions that were based upon students' skills/ concepts, and standards. 
+
+Looking at student work
+
+Review the SLOs during teacher orientation (2016-2017) and plan implementation for review with students 
+
+\end{findings}
+
+\begin{evidence}
+\item McTighe, Jay, and Elliot Seif. "A Summary of Underlying Theory and Research Base for Understanding by Design by Jay McTighe and Elliott Seif." A Summary of Underlying Theory and Research Base for Understanding by Design by Jay McTighe and Elliott Seif. Jay McTighe Educational Associates, 2002. Web. 4 Apr. 2016. 
+\item Nel has photos
+\item Houdett, Kathryn Parker, Elizabeth A. City, and Richard J. Murnane. Data Wise. Cambridge: Harvard Education, 2013. Print.
+\end{evidence}
+
 \chapter{Schoolwide Action Plan}
 \chapter{Appendix}
-%\listoffigures
+\listoffigures
+\listoftables
 \end{document}

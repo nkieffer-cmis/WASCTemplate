@@ -2,22 +2,26 @@
 \usepackage{marginnote}
 \usepackage{booktabs}
 \newcommand{\debug}{%
+        \newif\ifdebugon
+        \debugontrue
+        \ifdebugon
         \marginnote{%
                 \begin{debugBox}%
                         \jobname\showlineno%
                 \end{debugBox}%
         }%
+        \fi
 }
 
 \newtcolorbox{evidenceBox}{%
-  colback=black!5,
-  colbacktitle=violet,
-  boxrule=1pt,
+  colback=black!10,
+  %colbacktitle=violet,
+  boxrule=0pt,
   top=1em,
   breakable,
- % arc=4pt,
- % outer arc=4pt,
-  title=Evidence
+  arc=0pt,
+  outer arc=0pt,
+ % title=Evidence
 }
 
 \newtcolorbox{findingsBox}{%
@@ -53,6 +57,8 @@
 \debug
 \begin{evidenceBox}
 \vspace{-\topsep}
+\noindent\textbf{Evidence}
+
 \begin{itemize}[leftmargin=*]
   \setlength{\parskip}{0pt}
   \setlength{\itemsep}{1pt}
@@ -72,12 +78,15 @@
 \noindent\textbf{Prompt:} \textit{#1}
 }
 
-\newenvironment{tbl}[2]
-{
+\newenvironment{tbl}[4]{ %1 = width, 2 = col format, 3 = caption, 4 = label
 %\rowcolors{2}{lightgray}{white}
+\newcommand{\tblcap}{\captionof{table}{\textbf{#3}}\label{#4}}
+\begingroup
 \tabularx{#1}{#2}
 %\rowcolor{darkgray}
 }
 {
 \endtabularx
+\tblcap
+\endgroup
 }

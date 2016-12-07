@@ -1,0 +1,12 @@
+from mako.template import Template
+import sys
+
+fn = sys.argv[1]
+
+with open(fn) as data:
+    parts = data.read().split("<>")
+    print len(parts)
+
+subsect = Template(filename="subsection.tmp")
+
+#indicator
