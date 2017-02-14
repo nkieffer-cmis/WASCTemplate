@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.11.11)  14 FEB 2017 09:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.11)  14 FEB 2017 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **nocol.tex
 (./nocol.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -1150,43 +1150,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 569--569
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [30] [31]
+ [30]
+Package marginnote Info: Margin note 32.1 is on absolute page 32
+(marginnote)              on input line 611.
+Package marginnote Info: right page because not two side mode on input line 611
+.
+Package marginnote Info: xpos seems to be 134.26999pt,
+(marginnote)             \marginnoterightadjust ignored on input line 611.
+
+Overfull \hbox (3.17302pt too wide) in paragraph at lines 611--611
+[]\OT1/cmr/m/n/10 DEBUG 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]\OT1/cmr/bx/n/10 nocol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+\OT1/cmr/bx/n/10 line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[31]
+Overfull \hbox (0.1118pt too wide) in paragraph at lines 636--637
+[][][]\OT1/cmr/m/n/10 Physical Ed-u-ca-tion Model Con-tent Stan-dards[][] for C
+al-i-for-nia Pub-lic Schools 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+[32] [33]
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ¶ in font cmbx10!
+ [34]
 Chapter 6.
-[32
+[35
 
 ]
 Chapter 7.
-[33
+[36
 
 ] (./nocol.lof)
 \tf@lof=\write7
 \openout7 = `nocol.lof'.
 
- [34
+ [37
 
 ] (./nocol.lot)
 \tf@lot=\write8
 \openout8 = `nocol.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
- [35
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+ [38
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
  (./nocol.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
 Package rerunfilecheck Info: File `nocol.out' has not changed.
-(rerunfilecheck)             Checksum: 32BB4032B210EF23208CE8BBE37C89C2;2609.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 607.
+(rerunfilecheck)             Checksum: D099200B68A87CCD67065D7700444EB1;2701.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
  ) 
 Here is how much of TeX's memory you used:
- 26751 strings out of 493304
- 579908 string characters out of 6139870
- 730514 words of memory out of 5000000
- 29585 multiletter control sequences out of 15000+600000
+ 26757 strings out of 495028
+ 579975 string characters out of 6181497
+ 726227 words of memory out of 5000000
+ 29338 multiletter control sequences out of 15000+600000
  10581 words of font info for 38 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  64i,13n,99p,2122b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
@@ -1195,10 +1271,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on nocol.pdf (36 pages, 168037 bytes).
+Output written on nocol.pdf (39 pages, 178728 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 520 PDF objects out of 1000 (max. 8388607)
+ 467 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
