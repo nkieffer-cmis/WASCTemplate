@@ -1,39 +1,41 @@
-\contentsline {chapter}{\numberline {1}Preface}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Student/Community Profile Data}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}CMIS Identifying Information}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}CMIS: The School and the Community}{5}{section.2.2}
-\contentsline {section}{\numberline {2.3}CMIS Vision}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}CMIS Mission}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Enrollment Patterns}{7}{section.2.5}
-\contentsline {section}{\numberline {2.6}Student Diversity}{8}{section.2.6}
-\contentsline {section}{\numberline {2.7}Criteria for Admission of Students}{9}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Standards for Entry}{9}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Admissions Committee Review Process}{11}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Student Post-Graduation Plans}{12}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}College and University Placement}{12}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}University Entrance}{16}{subsection.2.8.2}
-\contentsline {section}{\numberline {2.9}Faculty and Staff Data}{16}{section.2.9}
-\contentsline {section}{\numberline {2.10}Staff Professional Development}{16}{section.2.10}
-\contentsline {section}{\numberline {2.11}Non-Academic Activities}{19}{section.2.11}
-\contentsline {section}{\numberline {2.12}School Finance}{19}{section.2.12}
-\contentsline {section}{\numberline {2.13}Discipline}{19}{section.2.13}
-\contentsline {section}{\numberline {2.14}Student Health}{19}{section.2.14}
-\contentsline {section}{\numberline {2.15}Student Service}{19}{section.2.15}
-\contentsline {section}{\numberline {2.16}Student Performance}{19}{section.2.16}
-\contentsline {section}{\numberline {2.17}School Community Services}{19}{section.2.17}
-\contentsline {section}{\numberline {2.18}Faculities Development - School Development Plan}{19}{section.2.18}
-\contentsline {section}{\numberline {2.19}Parent Teacher Group}{19}{section.2.19}
-\contentsline {section}{\numberline {2.20}School Executive Team}{20}{section.2.20}
-\contentsline {section}{\numberline {2.21}School Management Team}{20}{section.2.21}
-\contentsline {section}{\numberline {2.22}School Board}{21}{section.2.22}
-\contentsline {section}{\numberline {2.23}Teacher Administration Communication Team}{22}{section.2.23}
-\contentsline {section}{\numberline {2.24}Student Council}{24}{section.2.24}
-\contentsline {section}{\numberline {2.25}Conclusion}{25}{section.2.25}
-\contentsline {chapter}{\numberline {3}Progress Report}{26}{chapter.3}
-\contentsline {chapter}{\numberline {4}Student/Community Profile Summary}{27}{chapter.4}
-\contentsline {chapter}{\numberline {5}Self-Study Findings}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Curriculum, Instruction, and Assessment}{28}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Current Educational Research and Thinking}{28}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Academic Standards for Each Area}{31}{subsection.5.1.2}
-\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{35}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{36}{chapter.7}
+\contentsline {chapter}{\numberline {1}Preface}{4}{chapter.1}
+\contentsline {chapter}{\numberline {2}Student/Community Profile Data}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}CMIS Identifying Information}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}CMIS: The School and the Community}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}CMIS Vision}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}CMIS Mission}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Enrollment Patterns}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Student Diversity}{9}{section.2.6}
+\contentsline {section}{\numberline {2.7}Criteria for Admission of Students}{10}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Standards for Entry}{10}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Admissions Committee Review Process}{12}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Student Post-Graduation Plans}{13}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}College and University Placement}{13}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}University Entrance}{17}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Faculty and Staff Data}{17}{section.2.9}
+\contentsline {section}{\numberline {2.10}Staff Professional Development}{17}{section.2.10}
+\contentsline {section}{\numberline {2.11}Non-Academic Activities}{20}{section.2.11}
+\contentsline {section}{\numberline {2.12}School Finance}{20}{section.2.12}
+\contentsline {section}{\numberline {2.13}Discipline}{20}{section.2.13}
+\contentsline {section}{\numberline {2.14}Student Health}{20}{section.2.14}
+\contentsline {section}{\numberline {2.15}Student Service}{20}{section.2.15}
+\contentsline {section}{\numberline {2.16}Student Performance}{20}{section.2.16}
+\contentsline {section}{\numberline {2.17}School Community Services}{20}{section.2.17}
+\contentsline {section}{\numberline {2.18}Faculities Development - School Development Plan}{20}{section.2.18}
+\contentsline {section}{\numberline {2.19}Parent Teacher Group}{20}{section.2.19}
+\contentsline {section}{\numberline {2.20}School Executive Team}{21}{section.2.20}
+\contentsline {section}{\numberline {2.21}School Management Team}{21}{section.2.21}
+\contentsline {section}{\numberline {2.22}School Board}{22}{section.2.22}
+\contentsline {section}{\numberline {2.23}Teacher Administration Communication Team}{23}{section.2.23}
+\contentsline {section}{\numberline {2.24}Student Council}{25}{section.2.24}
+\contentsline {section}{\numberline {2.25}Conclusion}{26}{section.2.25}
+\contentsline {chapter}{\numberline {3}Progress Report}{27}{chapter.3}
+\contentsline {chapter}{\numberline {4}Student/Community Profile Summary}{28}{chapter.4}
+\contentsline {chapter}{\numberline {5}Self-Study Findings}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Curriculum, Instruction, and Assessment}{29}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Current Educational Research and Thinking}{29}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Academic Standards for Each Area}{32}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Embedded Global Perspectives}{35}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Congruence}{37}{subsection.5.1.4}
+\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{39}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{40}{chapter.7}

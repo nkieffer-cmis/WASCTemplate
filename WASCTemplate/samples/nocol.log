@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.11)  14 FEB 2017 11:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.11)  14 FEB 2017 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,16 +960,16 @@ Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 sed, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 ...erline {2.13}Discipline}{19}{section.2.13}
+l.19 ...erline {2.13}Discipline}{20}{section.2.13}
                                                    [1
 
-])
+] [2])
 \tf@toc=\write6
 \openout6 = `nocol.toc'.
 
- [2]
+ [3]
 Chapter 1.
-[3
+[4
 
 ]
 Chapter 2.
@@ -978,7 +978,7 @@ Overfull \hbox (1.73575pt too wide) in paragraph at lines 64--65
 []\OT1/cmr/m/n/10 43 
  []
 
-[4
+[5
 
 ]
 Missing character: There is no ‚ in font cmr10!
@@ -1005,7 +1005,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[5] [6]
+[6] [7]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1013,7 +1013,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
- [7] [8]
+ [8] [9]
 Overfull \hbox (1.52838pt too wide) in paragraph at lines 167--168
 []\OT1/cmr/m/n/10 Meet the re-quired English-language pro-fi-ciency ex-pec-ta-t
 ions for their grade
@@ -1022,28 +1022,28 @@ ions for their grade
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[9] [10]
+[10] [11]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [11]
+ [12]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
- [12] [13] [14] [15] [16]
+ [13] [14] [15] [16] [17]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [17] [18] [19] [20]
-Package marginnote Info: Margin note 22.1 is on absolute page 22
+ [18] [19] [20] [21]
+Package marginnote Info: Margin note 23.1 is on absolute page 23
 (marginnote)              on input line 452.
 Package marginnote Info: right page because not two side mode on input line 452
 .
@@ -1097,28 +1097,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 452--452
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[21]
+[22]
 Overfull \hbox (24.0645pt too wide) in paragraph at lines 477--477
 []\OT1/cmr/bx/n/14.4 Teacher Ad-min-is-tra-tion Com-mu-ni-ca-tion Team 
  []
 
-[22]
+[23]
 Overfull \hbox (0.19502pt too wide) in paragraph at lines 515--516
 []\OT1/cmr/m/n/10 the is-sues/ques-tion-s/-con-cerns must have an im-por-tance/
 rel-e-vance to many
  []
 
-[23] [24] [25]
+[24] [25] [26]
 Chapter 3.
-[26
-
-]
-Chapter 4.
 [27
 
 ]
+Chapter 4.
+[28
+
+]
 Chapter 5.
-Package marginnote Info: Margin note 29.1 is on absolute page 29
+Package marginnote Info: Margin note 30.1 is on absolute page 30
 (marginnote)              on input line 569.
 Package marginnote Info: right page because not two side mode on input line 569
 .
@@ -1144,14 +1144,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 569--569
 
  []
 
-[28
+[29
 
-] [29]
+] [30]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [30]
-Package marginnote Info: Margin note 32.1 is on absolute page 32
+ [31]
+Package marginnote Info: Margin note 33.1 is on absolute page 33
 (marginnote)              on input line 611.
 Package marginnote Info: right page because not two side mode on input line 611
 .
@@ -1180,7 +1180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 611--611
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[31]
+[32]
 Overfull \hbox (0.1118pt too wide) in paragraph at lines 636--637
 [][][]\OT1/cmr/m/n/10 Physical Ed-u-ca-tion Model Con-tent Stan-dards[][] for C
 al-i-for-nia Pub-lic Schools 
@@ -1222,45 +1222,154 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
-[32] [33]
+[33] [34]
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ¶ in font cmbx10!
- [34]
+Package marginnote Info: Margin note 36.1 is on absolute page 36
+(marginnote)              on input line 677.
+Package marginnote Info: right page because not two side mode on input line 677
+.
+Package marginnote Info: xpos seems to be 134.26999pt,
+(marginnote)             \marginnoterightadjust ignored on input line 677.
+
+Overfull \hbox (3.17302pt too wide) in paragraph at lines 677--677
+[]\OT1/cmr/m/n/10 DEBUG 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--677
+[]\OT1/cmr/bx/n/10 nocol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--677
+\OT1/cmr/bx/n/10 line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--677
+
+ []
+
+[35]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ¶ in font cmbx10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [36]
+Package marginnote Info: Margin note 38.1 is on absolute page 38
+(marginnote)              on input line 717.
+Package marginnote Info: right page because not two side mode on input line 717
+.
+Package marginnote Info: xpos seems to be 134.26999pt,
+(marginnote)             \marginnoterightadjust ignored on input line 717.
+
+Overfull \hbox (3.17302pt too wide) in paragraph at lines 717--717
+[]\OT1/cmr/m/n/10 DEBUG 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 717--717
+[]\OT1/cmr/bx/n/10 nocol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 717--717
+\OT1/cmr/bx/n/10 line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 717--717
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[37]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Overfull \hbox (3.194pt too wide) in paragraph at lines 745--747
+\OT1/cmr/m/n/10 pro-to-cols, and in-struc-tional rounds are be-gin-ning to move
+ CMIS to-wards stronger
+ []
+
+[38]
 Chapter 6.
-[35
+[39
 
 ]
 Chapter 7.
-[36
+[40
 
 ] (./nocol.lof)
 \tf@lof=\write7
 \openout7 = `nocol.lof'.
 
- [37
+ [41
 
 ] (./nocol.lot)
 \tf@lot=\write8
 \openout8 = `nocol.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
- [38
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 752.
+ [42
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 752.
  (./nocol.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 752.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 752.
 Package rerunfilecheck Info: File `nocol.out' has not changed.
-(rerunfilecheck)             Checksum: D099200B68A87CCD67065D7700444EB1;2701.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
+(rerunfilecheck)             Checksum: E5652C9656BFB11526F138075AE4B6C5;2847.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 752.
  ) 
 Here is how much of TeX's memory you used:
- 26757 strings out of 495028
- 579975 string characters out of 6181497
- 726227 words of memory out of 5000000
- 29338 multiletter control sequences out of 15000+600000
+ 26767 strings out of 495028
+ 580095 string characters out of 6181497
+ 727227 words of memory out of 5000000
+ 29342 multiletter control sequences out of 15000+600000
  10581 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  64i,13n,99p,2122b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1271,10 +1380,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on nocol.pdf (39 pages, 178728 bytes).
+Output written on nocol.pdf (43 pages, 189375 bytes).
 PDF statistics:
- 520 PDF objects out of 1000 (max. 8388607)
- 467 compressed objects within 5 object streams
- 114 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 510 compressed objects within 6 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 341 words of extra memory for PDF output out of 10000 (max. 10000000)
 
