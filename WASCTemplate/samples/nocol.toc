@@ -38,5 +38,21 @@
 \contentsline {subsection}{\numberline {5.1.3}Embedded Global Perspectives}{35}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Congruence}{37}{subsection.5.1.4}
 \contentsline {subsection}{\numberline {5.1.5}Student Work — Engagement in Learning}{38}{subsection.5.1.5}
-\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{41}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{42}{chapter.7}
+\contentsline {subsection}{\numberline {5.1.6}Accessibility of All Students to Curriculum}{40}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Acceptable Student Achievement}{43}{subsection.5.1.7}
+\contentsline {subsection}{\numberline {5.1.8}Integration Among Disciplines}{46}{subsection.5.1.8}
+\contentsline {subsection}{\numberline {5.1.9}Curricular Review, Revision, and Evaluation}{50}{subsection.5.1.9}
+\contentsline {subsection}{\numberline {5.1.10}Collaborative Work}{53}{subsection.5.1.10}
+\contentsline {subsection}{\numberline {5.1.11}Accessibility of all Students to Curriculum}{56}{subsection.5.1.11}
+\contentsline {subsection}{\numberline {5.1.12}Policies — Rigorous, Relevant, Coherent Curriculum, Curricular Review, Revision, and Evaluation}{61}{subsection.5.1.12}
+\contentsline {subsection}{\numberline {5.1.13}Articulation and Follow-up Studies}{63}{subsection.5.1.13}
+\contentsline {subsection}{\numberline {5.1.14}Conclusions}{64}{subsection.5.1.14}
+\contentsline {subsection}{\numberline {5.1.15}Research-based Knowledge}{66}{subsection.5.1.15}
+\contentsline {subsection}{\numberline {5.1.16}Planning Processes}{68}{subsection.5.1.16}
+\contentsline {subsection}{\numberline {5.1.17}Professional Collaboration}{70}{subsection.5.1.17}
+\contentsline {subsection}{\numberline {5.1.18}Professional Development}{72}{subsection.5.1.18}
+\contentsline {subsection}{\numberline {5.1.19}Challenging and Varied Instructional Strategies}{77}{subsection.5.1.19}
+\contentsline {subsection}{\numberline {5.1.20}Technological Integration}{81}{subsection.5.1.20}
+\contentsline {subsection}{\numberline {5.1.21}Evidence of Results based upon Challenging Learning Experiences }{84}{subsection.5.1.21}
+\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{86}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{87}{chapter.7}
