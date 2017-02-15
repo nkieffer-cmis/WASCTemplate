@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.11)  15 FEB 2017 14:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.11)  15 FEB 2017 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2264,41 +2264,81 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no  in font cmr10!
  [85]
+Package marginnote Info: Margin note 87.1 is on absolute page 87
+(marginnote)              on input line 1655.
+Package marginnote Info: right page because not two side mode on input line 165
+5.
+Package marginnote Info: xpos seems to be 134.26999pt,
+(marginnote)             \marginnoterightadjust ignored on input line 1655.
+
+Overfull \hbox (3.17302pt too wide) in paragraph at lines 1655--1655
+[]\OT1/cmr/m/n/10 DEBUG 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1655--1655
+[]\OT1/cmr/bx/n/10 nocol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1655--1655
+\OT1/cmr/bx/n/10 line
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1655--1655
+
+ []
+
+[86]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no  in font cmr10!
+ [87] [88]
 Chapter 6.
-[86
+[89
 
 ]
 Chapter 7.
-[87
+[90
 
 ] (./nocol.lof)
 \tf@lof=\write7
 \openout7 = `nocol.lof'.
 
- [88
+ [91
 
 ] (./nocol.lot)
 \tf@lot=\write8
 \openout8 = `nocol.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1652.
- [89
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1696.
+ [92
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1652.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1696.
  (./nocol.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1652.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1652.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1696.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1696.
 
 Package rerunfilecheck Info: File `nocol.out' has not changed.
-(rerunfilecheck)             Checksum: 1C65BBA396595E67C603E827F6654F9C;4392.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1652.
+(rerunfilecheck)             Checksum: 8A6DDBE7CFBD0D9ACC557C62E1C11E6A;4490.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1696.
  ) 
 Here is how much of TeX's memory you used:
- 26870 strings out of 495028
- 581278 string characters out of 6181497
+ 26876 strings out of 495028
+ 581347 string characters out of 6181497
  728233 words of memory out of 5000000
- 29379 multiletter control sequences out of 15000+600000
+ 29381 multiletter control sequences out of 15000+600000
  10581 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  64i,13n,99p,2122b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2309,10 +2349,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb>
-Output written on nocol.pdf (90 pages, 331010 bytes).
+Output written on nocol.pdf (93 pages, 337484 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 928 compressed objects within 10 object streams
- 186 named destinations out of 1000 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1061 PDF objects out of 1200 (max. 8388607)
+ 949 compressed objects within 10 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
 

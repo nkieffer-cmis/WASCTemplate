@@ -54,5 +54,6 @@
 \contentsline {subsection}{\numberline {5.1.19}Challenging and Varied Instructional Strategies}{77}{subsection.5.1.19}
 \contentsline {subsection}{\numberline {5.1.20}Technological Integration}{81}{subsection.5.1.20}
 \contentsline {subsection}{\numberline {5.1.21}Evidence of Results based upon Challenging Learning Experiences }{84}{subsection.5.1.21}
-\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{86}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{87}{chapter.7}
+\contentsline {subsection}{\numberline {5.1.22}Student Understanding of Performance Levels}{86}{subsection.5.1.22}
+\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{89}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{90}{chapter.7}
