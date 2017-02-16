@@ -1,59 +1,86 @@
-\contentsline {chapter}{\numberline {1}Preface}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Student/Community Profile Data}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}CMIS Identifying Information}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}CMIS: The School and the Community}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}CMIS Vision}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}CMIS Mission}{8}{section.2.4}
-\contentsline {section}{\numberline {2.5}Enrollment Patterns}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Student Diversity}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Criteria for Admission of Students}{10}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Standards for Entry}{10}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Admissions Committee Review Process}{12}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Student Post-Graduation Plans}{13}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}College and University Placement}{13}{subsection.2.8.1}
-\contentsline {subsection}{\numberline {2.8.2}University Entrance}{17}{subsection.2.8.2}
-\contentsline {section}{\numberline {2.9}Faculty and Staff Data}{17}{section.2.9}
-\contentsline {section}{\numberline {2.10}Staff Professional Development}{17}{section.2.10}
-\contentsline {section}{\numberline {2.11}Non-Academic Activities}{20}{section.2.11}
-\contentsline {section}{\numberline {2.12}School Finance}{20}{section.2.12}
-\contentsline {section}{\numberline {2.13}Discipline}{20}{section.2.13}
-\contentsline {section}{\numberline {2.14}Student Health}{20}{section.2.14}
-\contentsline {section}{\numberline {2.15}Student Service}{20}{section.2.15}
-\contentsline {section}{\numberline {2.16}Student Performance}{20}{section.2.16}
-\contentsline {section}{\numberline {2.17}School Community Services}{20}{section.2.17}
-\contentsline {section}{\numberline {2.18}Faculities Development - School Development Plan}{20}{section.2.18}
-\contentsline {section}{\numberline {2.19}Parent Teacher Group}{20}{section.2.19}
-\contentsline {section}{\numberline {2.20}School Executive Team}{21}{section.2.20}
-\contentsline {section}{\numberline {2.21}School Management Team}{21}{section.2.21}
-\contentsline {section}{\numberline {2.22}School Board}{22}{section.2.22}
-\contentsline {section}{\numberline {2.23}Teacher Administration Communication Team}{23}{section.2.23}
-\contentsline {section}{\numberline {2.24}Student Council}{25}{section.2.24}
-\contentsline {section}{\numberline {2.25}Conclusion}{26}{section.2.25}
-\contentsline {chapter}{\numberline {3}Progress Report}{27}{chapter.3}
-\contentsline {chapter}{\numberline {4}Student/Community Profile Summary}{28}{chapter.4}
-\contentsline {chapter}{\numberline {5}Self-Study Findings}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Curriculum, Instruction, and Assessment}{29}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Current Educational Research and Thinking}{29}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Academic Standards for Each Area}{32}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Embedded Global Perspectives}{35}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Congruence}{37}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Student Work — Engagement in Learning}{38}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Accessibility of All Students to Curriculum}{40}{subsection.5.1.6}
-\contentsline {subsection}{\numberline {5.1.7}Acceptable Student Achievement}{43}{subsection.5.1.7}
-\contentsline {subsection}{\numberline {5.1.8}Integration Among Disciplines}{46}{subsection.5.1.8}
-\contentsline {subsection}{\numberline {5.1.9}Curricular Review, Revision, and Evaluation}{50}{subsection.5.1.9}
-\contentsline {subsection}{\numberline {5.1.10}Collaborative Work}{53}{subsection.5.1.10}
-\contentsline {subsection}{\numberline {5.1.11}Accessibility of all Students to Curriculum}{56}{subsection.5.1.11}
-\contentsline {subsection}{\numberline {5.1.12}Policies — Rigorous, Relevant, Coherent Curriculum, Curricular Review, Revision, and Evaluation}{61}{subsection.5.1.12}
-\contentsline {subsection}{\numberline {5.1.13}Articulation and Follow-up Studies}{63}{subsection.5.1.13}
-\contentsline {subsection}{\numberline {5.1.14}Conclusions}{64}{subsection.5.1.14}
-\contentsline {subsection}{\numberline {5.1.15}Research-based Knowledge}{66}{subsection.5.1.15}
-\contentsline {subsection}{\numberline {5.1.16}Planning Processes}{68}{subsection.5.1.16}
-\contentsline {subsection}{\numberline {5.1.17}Professional Collaboration}{70}{subsection.5.1.17}
-\contentsline {subsection}{\numberline {5.1.18}Professional Development}{72}{subsection.5.1.18}
-\contentsline {subsection}{\numberline {5.1.19}Challenging and Varied Instructional Strategies}{77}{subsection.5.1.19}
-\contentsline {subsection}{\numberline {5.1.20}Technological Integration}{81}{subsection.5.1.20}
-\contentsline {subsection}{\numberline {5.1.21}Evidence of Results based upon Challenging Learning Experiences }{84}{subsection.5.1.21}
-\contentsline {subsection}{\numberline {5.1.22}Student Understanding of Performance Levels}{86}{subsection.5.1.22}
-\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{89}{chapter.6}
-\contentsline {chapter}{\numberline {7}Appendix}{90}{chapter.7}
+\contentsline {chapter}{\numberline {1}Preface}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Student/Community Profile Data}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}CMIS Identifying Information}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}CMIS: The School and the Community}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}CMIS Vision}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}CMIS Mission}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Enrollment Patterns}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Student Diversity}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Criteria for Admission of Students}{11}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Standards for Entry}{11}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Admissions Committee Review Process}{13}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Student Post-Graduation Plans}{14}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}College and University Placement}{14}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}University Entrance}{18}{subsection.2.8.2}
+\contentsline {section}{\numberline {2.9}Faculty and Staff Data}{18}{section.2.9}
+\contentsline {section}{\numberline {2.10}Staff Professional Development}{18}{section.2.10}
+\contentsline {section}{\numberline {2.11}Non-Academic Activities}{21}{section.2.11}
+\contentsline {section}{\numberline {2.12}School Finance}{21}{section.2.12}
+\contentsline {section}{\numberline {2.13}Discipline}{21}{section.2.13}
+\contentsline {section}{\numberline {2.14}Student Health}{21}{section.2.14}
+\contentsline {section}{\numberline {2.15}Student Service}{21}{section.2.15}
+\contentsline {section}{\numberline {2.16}Student Performance}{21}{section.2.16}
+\contentsline {section}{\numberline {2.17}School Community Services}{21}{section.2.17}
+\contentsline {section}{\numberline {2.18}Faculities Development - School Development Plan}{21}{section.2.18}
+\contentsline {section}{\numberline {2.19}Parent Teacher Group}{21}{section.2.19}
+\contentsline {section}{\numberline {2.20}School Executive Team}{22}{section.2.20}
+\contentsline {section}{\numberline {2.21}School Management Team}{22}{section.2.21}
+\contentsline {section}{\numberline {2.22}School Board}{23}{section.2.22}
+\contentsline {section}{\numberline {2.23}Teacher Administration Communication Team}{24}{section.2.23}
+\contentsline {section}{\numberline {2.24}Student Council}{26}{section.2.24}
+\contentsline {section}{\numberline {2.25}Conclusion}{27}{section.2.25}
+\contentsline {chapter}{\numberline {3}Progress Report}{28}{chapter.3}
+\contentsline {chapter}{\numberline {4}Student/Community Profile Summary}{29}{chapter.4}
+\contentsline {chapter}{\numberline {5}Self-Study Findings}{30}{chapter.5}
+\contentsline {section}{\numberline {5.1}Organization for Student Learning}{30}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}School Purpose Criterion}{31}{subsection.5.1.1}
+\contentsline {subsubsection}{Beliefs and Philosophy}{31}{section*.2}
+\contentsline {subsubsection}{Purpose, Schoolwide Learner Outcomes, and Profile Data}{31}{section*.3}
+\contentsline {subsubsection}{Involvement of All}{33}{section*.4}
+\contentsline {subsubsection}{Consistency of Purpose, Schoolwide Learner Outcomes, and Program}{34}{section*.5}
+\contentsline {subsubsection}{Communication about Vision, Mission, and Schoolwide Learner Outcomes}{36}{section*.6}
+\contentsline {subsubsection}{Regular Review/Revision}{37}{section*.7}
+\contentsline {subsubsection}{Conclusions}{38}{section*.8}
+\contentsline {subsection}{\numberline {5.1.2}Governance Criterion}{40}{subsection.5.1.2}
+\contentsline {subsubsection}{Clear Policies and Procedures}{40}{section*.9}
+\contentsline {subsubsection}{Pretraining of Potential Board Members}{41}{section*.10}
+\contentsline {subsubsection}{Relationship of Policies}{42}{section*.11}
+\contentsline {subsubsection}{Involvement of Governing Authority}{44}{section*.12}
+\contentsline {subsubsection}{School Community Understanding}{46}{section*.13}
+\contentsline {subsubsection}{Relationship to Professional Staff}{48}{section*.14}
+\contentsline {subsubsection}{Board Evaluation/Monitoring Procedures}{49}{section*.15}
+\contentsline {subsubsection}{Complaint and Conflict Resolution Procedures}{50}{section*.16}
+\contentsline {subsubsection}{Evaluation Procedures}{51}{section*.17}
+\contentsline {subsubsection}{Evaluation of Governing Authority}{52}{section*.18}
+\contentsline {subsubsection}{Conclusions}{53}{section*.19}
+\contentsline {subsection}{\numberline {5.1.3}School Leadership Criterion}{55}{subsection.5.1.3}
+\contentsline {subsubsection}{Defined Responsibilities, Practices, etc.}{55}{section*.20}
+\contentsline {section}{\numberline {5.2}Curriculum, Instruction, and Assessment}{57}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Current Educational Research and Thinking}{57}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Academic Standards for Each Area}{59}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Embedded Global Perspectives}{63}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Congruence}{64}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Student Work — Engagement in Learning}{66}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Accessibility of All Students to Curriculum}{67}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Acceptable Student Achievement}{71}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Integration Among Disciplines}{73}{subsection.5.2.8}
+\contentsline {subsection}{\numberline {5.2.9}Curricular Review, Revision, and Evaluation}{77}{subsection.5.2.9}
+\contentsline {subsection}{\numberline {5.2.10}Collaborative Work}{80}{subsection.5.2.10}
+\contentsline {subsection}{\numberline {5.2.11}Accessibility of all Students to Curriculum}{84}{subsection.5.2.11}
+\contentsline {subsection}{\numberline {5.2.12}Policies: Rigorous, Relevant, Coherent Curriculum, Curricular Review, Revision, and Evaluation}{88}{subsection.5.2.12}
+\contentsline {subsection}{\numberline {5.2.13}Articulation and Follow-up Studies}{90}{subsection.5.2.13}
+\contentsline {subsection}{\numberline {5.2.14}Conclusions}{92}{subsection.5.2.14}
+\contentsline {subsection}{\numberline {5.2.15}Research-based Knowledge}{94}{subsection.5.2.15}
+\contentsline {subsection}{\numberline {5.2.16}Planning Processes}{95}{subsection.5.2.16}
+\contentsline {subsection}{\numberline {5.2.17}Professional Collaboration}{98}{subsection.5.2.17}
+\contentsline {subsection}{\numberline {5.2.18}Professional Development}{99}{subsection.5.2.18}
+\contentsline {subsection}{\numberline {5.2.19}Challenging and Varied Instructional Strategies}{105}{subsection.5.2.19}
+\contentsline {subsection}{\numberline {5.2.20}Technological Integration}{109}{subsection.5.2.20}
+\contentsline {subsection}{\numberline {5.2.21}Evidence of Results based upon Challenging Learning Experiences }{112}{subsection.5.2.21}
+\contentsline {subsection}{\numberline {5.2.22}Student Understanding of Performance Levels}{113}{subsection.5.2.22}
+\contentsline {subsection}{\numberline {5.2.23}Student Perceptions }{115}{subsection.5.2.23}
+\contentsline {subsection}{\numberline {5.2.24}Student Needs}{117}{subsection.5.2.24}
+\contentsline {subsection}{\numberline {5.2.25}Student Use of Resources}{119}{subsection.5.2.25}
+\contentsline {subsection}{\numberline {5.2.26}Conclusions}{120}{subsection.5.2.26}
+\contentsline {chapter}{\numberline {6}Schoolwide Action Plan}{122}{chapter.6}
+\contentsline {chapter}{\numberline {7}Appendix}{123}{chapter.7}

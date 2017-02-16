@@ -7,7 +7,7 @@
         \ifdebugon
         \marginnote{%
                 \begin{debugBox}
-                        \textbf{\jobname\showlineno}
+                        \textbf{\showlineno}
                         \\
                         #1
                 \end{debugBox}
@@ -40,7 +40,7 @@
 
 \newtcolorbox{debugBox}{%
         colback=yellow,
-        title=DEBUG
+        title=debug
 }
         
 
@@ -78,6 +78,7 @@
 }
 
 \newcommand{\minor}[1]{
+\debug{}
 \noindent\textbf{#1}
 }
 
