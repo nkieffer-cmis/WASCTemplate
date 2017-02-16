@@ -84,7 +84,7 @@
 (defun make-region-latex-list (list-type)
   "does something"
  (interactive "MList Type: ")
- (setq lines (split-string (buffer-substring-no-properties (mark) (point))))
+ (setq lines (split-string (buffer-substring-no-properties (mark) (point)) "\n"))
  (delete-region (mark) (point))
  (insert (format "\\begin{%s}\n" list-type))
   (dolist (elt lines)
@@ -94,9 +94,10 @@
 
 (global-set-key [f5] 'make-region-latex-list)
 
-(defun make-region-latex-link (url)
+(defun make-region-latex-link ()
   "makes an href"
-  (interactive "MURL: ")
+  (interactive)
+  (setq url (current-kill 0))
   (setq text  (buffer-substring-no-properties (mark) (point)))
   (delete-region (mark) (point))
   (insert (format "\\href{%s}{%s}" url text)))
@@ -121,7 +122,11 @@
   (setq subsection (concat (concat "\\subsubsection{" (nth 0 lines)) "}"))
   (setq indicator (concat "\\" (concat (replace-regexp-in-string "Indicator: "  "indicator{" (nth 1 lines)) "}")))
   (setq prompt (concat "\\" (concat (replace-regexp-in-string "Prompt: "  "prompt{" (nth 2 lines)) "}")))
-  (insert (format "%s\n\n%s\n\n%s\n\n\\begin{findings}\n\\end{findings}" subsection indicator prompt )))
+  (insert (format "%s\n\n%s\n\n%s\n\n\\begin{findings}\n\\end{findings}" subsection indicator prompt ))
+  (move-beginning-of-line nil)
+  (newline)
+(previous-line nil)
+)
   
 (global-set-key [f8] 'make-latex-topmatter)
 
