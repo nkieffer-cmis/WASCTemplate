@@ -1,6 +1,6 @@
 \documentclass{report}
 \title{WASC Self-Study Report}
-\date{November 16, 2016}
+\date{\today}
 \author{CMIS}
 \usepackage{tabularx,colortbl,array}
 \usepackage[labelfont=bf]{caption}
@@ -22,8 +22,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\rfoot{Page \thepage}
-\cfoot{\leftmark}
+\cfoot{\thepage}
+\chead{\leftmark}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \hypersetup{%
@@ -49,24 +49,22 @@
 \tableofcontents
 \chapter{Preface}
 \chapter[Student/Community Profile Data]{Student/Community Profile and Supporting Data and Findings}
-
 \include{schoolprofile}
-
 \chapter{Progress Report}
 \chapter[Student/Community Profile Summary]{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
 \chapter{Self-Study Findings}
-
-\section{Organization for Student Learning}
-
+%% ORGANIZATION FOR STUDENT LEARNING
 \include{schoolpurpose}
 \include{schoolgovernance}
 \include{schoolleadership}
 \include{staffcriterion}
 \include{schoolenvironment}
 \include{reportingstudentprogress}
-
+%% CURRICULUM, INSTRUCTION, AND ASSESSMENT
 \include{curriculuminstructionassessment}
+%% SUPPORT FOR STUDENT PERSONAL AND ACADEMIC GROWTH
 \include{supportpersonalacademic}
+%% RESOURCE MANAGEMENT AND DEVELOPMENT
 \include{resourcemanagementdevelopment}
 \chapter{Schoolwide Action Plan}
 \chapter{Appendix}

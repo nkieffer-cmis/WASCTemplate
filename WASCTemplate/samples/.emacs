@@ -130,7 +130,14 @@
   
 (global-set-key [f8] 'make-latex-topmatter)
 
+(defun make-region-latex-figure (caption)
+  ""
+  (interactive "MCaption: ")
+  (setq image  (buffer-substring-no-properties (mark) (point)))
+  (delete-region (mark) (point))
+  (insert (format "\\begin{figure}\n\\centering\n%s\n\\caption{%s}\n\\end{figure}" image caption)))
 
+(global-set-key [f10] 'make-region-latex-figure)
 
 
 ;;Encouraging responsibility and discipline in learning behavior of students at wat ku sao school
