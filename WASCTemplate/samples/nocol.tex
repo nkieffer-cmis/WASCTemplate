@@ -2,11 +2,13 @@
 \title{WASC Self-Study Report}
 \date{\today}
 \author{CMIS}
-\usepackage{tabularx,colortbl,array}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{tabu,tabularx,colortbl,array}
 \usepackage[labelfont=bf]{caption}
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
+\usepackage{pdflscape}
 \usepackage{pgfplots}
 %\usepackage{paracol}
 \usepackage{blindtext}
@@ -48,10 +50,13 @@
 
 \tableofcontents
 \chapter{Preface}
+\include{preface}
 \chapter[Student/Community Profile Data]{Student/Community Profile and Supporting Data and Findings}
 \include{schoolprofile}
 \chapter{Progress Report}
+\include{progressreport}
 \chapter[Student/Community Profile Summary]{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
+\include{summary}
 \chapter{Self-Study Findings}
 %% ORGANIZATION FOR STUDENT LEARNING
 \include{schoolpurpose}
@@ -67,6 +72,7 @@
 %% RESOURCE MANAGEMENT AND DEVELOPMENT
 \include{resourcemanagementdevelopment}
 \chapter{Schoolwide Action Plan}
+\include{actionplan}
 \chapter{Appendix}
 \listoffigures
 \listoftables
