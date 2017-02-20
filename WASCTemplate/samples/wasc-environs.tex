@@ -114,6 +114,20 @@
 \setlength{\parskip}{1em}
 }
 
+\let\oldlof\listoffigures
+\renewcommand\listoffigures{
+\setlength{\parskip}{0em}
+\oldlof
+\setlength{\parskip}{1em}
+}
+
+\let\oldlot\listoftables
+\renewcommand\listoftables{
+\setlength{\parskip}{0em}
+\oldlot
+\setlength{\parskip}{1em}
+}
+
 \definecolor{CmisPurple}{HTML}{885190}
 
 \newtcolorbox{sectionbox}{
@@ -145,7 +159,7 @@ arc=0mm,
 \titleformat{\chapter}
 {\Huge\bfseries\raggedright}{}{0em}{\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{#1}}}}
 
-\titlespacing*{\chapter}{0pt}{5.5in}{0pt}
+%\titlespacing*{\chapter}{0pt}{5.5in}{0pt}
 \newcommand\tcbchapter[1]{%
 %\begin{chapterbox}
 \chapter{#1}
@@ -157,6 +171,16 @@ arc=0mm,
 
  \newcommand\BackgroundPic[1]{%
    \put(0,0){%
+     \parbox[b][\paperheight]{\paperwidth}{%
+       \vfill
+       \centering
+       \includegraphics[width=\paperwidth,height=\paperheight,%
+         keepaspectratio]{#1}%
+       \vfill
+ }}}
+
+\newcommand\CoverPic[1]{%
+   \put(0,60){%
      \parbox[b][\paperheight]{\paperwidth}{%
        \vfill
        \centering
