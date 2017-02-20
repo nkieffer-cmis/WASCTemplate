@@ -4,6 +4,10 @@
 \author{CMIS}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{tabu,tabularx,colortbl,array}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
 \usepackage[labelfont=bf]{caption}
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
@@ -20,7 +24,7 @@
 \usepackage{subfig}
 \usepackage{enumitem}
 \usepackage{verbatim}
-\usepackage{titlesec}
+\usepackage[explicit]{titlesec}
 \usepackage{float}
 \usepackage{wrapfig}
 \floatstyle{boxed} 
@@ -100,7 +104,7 @@
 %% RESOURCE MANAGEMENT AND DEVELOPMENT
 \include{resourcemanagementdevelopment}
 \tcbchapter{Schoolwide Action Plan}
-%\AddToShipoutPicture*{\BackgroundPic{chapter5.jpg}}
+\AddToShipoutPicture*{\BackgroundPic{chapter5chapter.jpg}}
 \include{actionplan}
 \tcbchapter{Appendix}
 \listoffigures
