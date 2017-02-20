@@ -1,6 +1,7 @@
 \usepackage[most]{tcolorbox}
 \usepackage{marginnote}
 \usepackage{booktabs}
+\usepackage{titlesec}
 \newcommand{\debug}[1]{%
         \newif\ifdebugon
         \debugonfalse
@@ -46,7 +47,6 @@
 
 \newenvironment{findings}
 {
-\debug
 \noindent\textbf{Findings}
 
 }
@@ -104,5 +104,60 @@
 }
 
 \newcommand{\blockquote}[1]{
-#1
+``#1''
 }
+
+\let\oldtoc\tableofcontents
+\renewcommand\tableofcontents{
+\setlength{\parskip}{0em}
+\oldtoc
+\setlength{\parskip}{1em}
+}
+
+\definecolor{CmisPurple}{HTML}{885190}
+
+\newtcolorbox{sectionbox}{
+coltext=black,
+colback=CmisPurple!50, 
+colframe=CmisPurple,
+arc=0mm,
+%size=small
+}
+
+\newcommand\tcbsection[1]{%
+\begin{sectionbox}
+\section{#1}
+\end{sectionbox}}
+
+\newtcolorbox{chapterbox}{
+coltext=CmisPurple,
+boxsep=0pt,
+%colback=CmisPurple!50, 
+colframe=CmisPurple,
+arc=0mm,
+%size=small
+}
+
+\usepackage{titlesec}
+%\titleformat{\chapter}[display]
+\titleformat{\chapter}[display]
+    {\color{white}\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{5.5in}{0pt}
+\newcommand\tcbchapter[1]{%
+%\begin{chapterbox}
+\chapter{#1}
+%\end{chapterbox}
+}
+
+
+\usepackage{eso-pic}
+
+ \newcommand\BackgroundPic[1]{%
+   \put(0,0){%
+     \parbox[b][\paperheight]{\paperwidth}{%
+       \vfill
+       \centering
+       \includegraphics[width=\paperwidth,height=\paperheight,%
+         keepaspectratio]{#1}%
+       \vfill
+ }}}

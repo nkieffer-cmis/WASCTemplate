@@ -9,6 +9,10 @@
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\tabulinesep=^2pt_2pt
 \usepackage{pgfplots}
 %\usepackage{paracol}
 \usepackage{blindtext}
@@ -16,7 +20,7 @@
 \usepackage{subfig}
 \usepackage{enumitem}
 \usepackage{verbatim}
-
+\usepackage{titlesec}
 \usepackage{float}
 \usepackage{wrapfig}
 \floatstyle{boxed} 
@@ -27,13 +31,6 @@
 \cfoot{\thepage}
 \chead{\leftmark}
 \usepackage{xcolor}
-\usepackage{hyperref}
-\hypersetup{%
-  pdftitle=WASC Self Report,
-  colorlinks=true,
-  urlcolor=cyan,
-  urlbordercolor=magenta
-}
 \setlength{\parskip}{1em}
 
 \makeatletter
@@ -45,19 +42,49 @@
 \makeatother
 
 \include{wasc-environs}
+%\usepackage{tocloft} 
+%\setlength{\cftbeforetoctitleskip}{-5.5in}
+%\renewcommand{\cfttoctitlefont}{\color{black}}
+\usepackage{hyperref}
+%\usepackage{scrreport}
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{0.75\textheight}}
+\hypersetup{%
+  pdftitle=WASC Self Report,
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=blue
+  %urlbordercolor=magenta
+}
+
 \begin{document}
+%\AddToShipoutPicture*{\BackgroundPic{preface.jpg}}
+%{\huge COVER COVER}
+%\newpage
 \maketitle
 
 \tableofcontents
-\chapter{Preface}
+%\addtocontents{toc}{-5in}
+
+\clearpage
+\newpage
+\tcbchapter{Preface}
+\AddToShipoutPicture*{\BackgroundPic{title.jpg}}
 \include{preface}
-\chapter[Student/Community Profile Data]{Student/Community Profile and Supporting Data and Findings}
+\newpage
+\tcbchapter{Student/Community Profile and Supporting Data and Findings}
+\AddToShipoutPicture*{\BackgroundPic{chapter1.jpg}}
 \include{schoolprofile}
-\chapter{Progress Report}
+
+\tcbchapter{Progress Report}
+\AddToShipoutPicture*{\BackgroundPic{chapter2.jpg}}
 \include{progressreport}
-\chapter[Student/Community Profile Summary]{Student/Community Profile - Overall Summary from Analysis of Profile Data and Progress}
+
+\tcbchapter{Student/Community Profile: Overall Summary from Analysis of Profile Data and Progress}
+\AddToShipoutPicture*{\BackgroundPic{chapter3.jpg}}
 \include{summary}
-\chapter{Self-Study Findings}
+
+\tcbchapter{Self-Study Findings}
+\AddToShipoutPicture*{\BackgroundPic{chapter4.jpg}}
 %% ORGANIZATION FOR STUDENT LEARNING
 \include{schoolpurpose}
 \include{schoolgovernance}
@@ -65,15 +92,17 @@
 \include{staffcriterion}
 \include{schoolenvironment}
 \include{reportingstudentprogress}
+\include{improvement}
 %% CURRICULUM, INSTRUCTION, AND ASSESSMENT
 \include{curriculuminstructionassessment}
 %% SUPPORT FOR STUDENT PERSONAL AND ACADEMIC GROWTH
 \include{supportpersonalacademic}
 %% RESOURCE MANAGEMENT AND DEVELOPMENT
 \include{resourcemanagementdevelopment}
-\chapter{Schoolwide Action Plan}
+\tcbchapter{Schoolwide Action Plan}
+%\AddToShipoutPicture*{\BackgroundPic{chapter5.jpg}}
 \include{actionplan}
-\chapter{Appendix}
+\tcbchapter{Appendix}
 \listoffigures
 \listoftables
 \end{document}
