@@ -23,6 +23,9 @@
 %\usepackage{capt-of}
 \usepackage{subfig}
 \usepackage{enumitem}
+\setlist{nosep}
+
+\usepackage{anyfontsize}
 \usepackage{verbatim}
 \usepackage[explicit]{titlesec}
 \usepackage{float}
@@ -37,6 +40,7 @@
 \cfoot{\thepage}
 \chead{\leftmark}
 \usepackage{xcolor}
+\usepackage{tikz}
 \setlength{\parskip}{1em}
 
 \makeatletter
@@ -65,38 +69,52 @@
 }
 
 \begin{document}
-\begingroup
+\newgeometry{left=0.5in, right=0pt,top=0pt,bottom=0pt}
+\begin{titlepage}
+
+
 \pagenumbering{gobble}
+\centering
 \AddToShipoutPicture*{\CoverPic{frontpage.jpg}}
-%\AddToShipoutPicture*{\BackgroundPic{CMIS_logo.png}}
-{\Huge\textbf\centering
-Chiang Mai International School \\}
-\vfill
-\begin{tabu} to \textwidth {lr}
-\parbox[t]{3in}{
-\large
+
+\vspace*{1in}
+
+\begin{tabular}{cc}
+\parbox[m]{0.2\textwidth}{\includegraphics[width=0.2\textwidth]{CMIS_logo.png}} &
+\parbox[m]{0.8\textwidth}{\raggedright\sffamily\bfseries\color{CmisPurple}{\fontsize{25}{30}\selectfont Chiang Mai International School} \\
+\bigskip
+{\Huge\color{black!50!CmisPurple}
+Focus on Learning 
+
+Self-Study Report}
+
+\bigskip
 WASC Accreditation Visit \\
-March 19-23, 2017\\
-}&
-\parbox[m]{3in}{
-\includegraphics[width=0.5\textwidth]{CMIS_logo.png}}
-\\
-\end{tabu}
-\endgroup
+March 19-23, 2017 \\
+}\\%&
+%\parbox[m]{0.3\textwidth}{\includegraphics[width=0.20\textwidth]{CMIS_logo.png}} \\
+\end{tabular}
+
+\begin{tikzpicture}[remember picture, overlay]
+\filldraw[fill=CmisPurple] (0,0) rectangle (1, -2);
+\end{tikzpicture}
+
+\bigskip
+
+
+\end{titlepage}
+\restoregeometry
 \newpage
 \pagenumbering{arabic}
-
-\maketitle
-
+%\maketitle
 \tableofcontents
-%\addtocontents{toc}{-5in}
-
 \clearpage
-\newpage
+
 \tcbchapter{Preface}
 \AddToShipoutPicture*{\BackgroundPic{title.jpg}}
-\include{preface}
 \newpage
+
+\include{preface}
 \tcbchapter{Student/Community Profile and Supporting Data and Findings}
 \AddToShipoutPicture*{\BackgroundPic{chapter1.jpg}}
 \include{schoolprofile}

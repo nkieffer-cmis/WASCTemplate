@@ -47,7 +47,7 @@
 
 \newenvironment{findings}
 {
-\noindent\textbf{Findings}
+\noindent\textbf{\sffamily Findings}
 
 }
 {
@@ -78,16 +78,15 @@
 }
 
 \newcommand{\minor}[1]{
-\debug{}
-\noindent\textbf{#1}
+\noindent\textbf{\sffamily#1}
 }
 
 \newcommand{\indicator}[1]{ 
-\noindent\textbf{Indicator:} #1
+\noindent\textbf{\sffamily Indicator:} #1
 }
 
 \newcommand{\prompt}[1]{ 
-\noindent\textbf{Prompt:} \textit{#1}
+\noindent\textbf{\sffamily Prompt:} \textit{#1}
 }
 
 \newenvironment{tbl}[4]{ %1 = width, 2 = col format, 3 = caption, 4 = label
@@ -139,9 +138,10 @@ arc=0mm,
 }
 
 \newcommand\tcbsection[1]{%
-\begin{sectionbox}
-\section{#1}
-\end{sectionbox}}
+%\begin{sectionbox}%
+\section{#1}%
+%\end{sectionbox}
+}
 
 \newtcolorbox{chapterbox}{
 coltext=CmisPurple,
@@ -157,7 +157,26 @@ arc=0mm,
 %\titleformat{\chapter}
 %    {\color{white}\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \titleformat{\chapter}
-{\Huge\bfseries\raggedright}{}{0em}{\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{#1}}}}
+%{\newgeometry{left=0in, right=0pt,top=0pt,bottom=0pt}
+{\Huge\bfseries\raggedright}{}{0em}{\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{\sffamily#1}}}}
+
+\titleformat{\section}
+{\sffamily\bfseries\huge\color{CmisPurple}}
+{}
+{0em}
+{\includegraphics[height=0.75em]{triangle.png} #1}
+
+\titleformat{\subsection}
+{\sffamily\bfseries\Large\color{CmisPurple!110}}
+{}
+{0pt}
+{#1}[\color{CmisPurple}\titlerule]
+
+\titleformat{\subsubsection}
+{\sffamily\bfseries\large\color{CmisPurple!110}}
+{}
+{0pt}
+{#1}
 
 %\titlespacing*{\chapter}{0pt}{5.5in}{0pt}
 \newcommand\tcbchapter[1]{%
@@ -171,20 +190,20 @@ arc=0mm,
 
  \newcommand\BackgroundPic[1]{%
    \put(0,0){%
-     \parbox[b][\paperheight]{\paperwidth}{%
+     \parbox[b]{\paperwidth}{%
        \vfill
        \centering
-       \includegraphics[width=\paperwidth,height=\paperheight,%
+       \includegraphics[width=\textwidth,%\paperwidth,%height=\paperheight,%
          keepaspectratio]{#1}%
        \vfill
  }}}
 
 \newcommand\CoverPic[1]{%
-   \put(0,60){%
+   \put(0,-150){%
      \parbox[b][\paperheight]{\paperwidth}{%
        \vfill
        \centering
-       \includegraphics[width=\paperwidth,height=\paperheight,%
+       \includegraphics[width=\paperwidth,%height=\paperheight,%
          keepaspectratio]{#1}%
        \vfill
  }}}
