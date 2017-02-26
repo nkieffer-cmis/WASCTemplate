@@ -75,7 +75,7 @@
 
 \pagenumbering{gobble}
 \centering
-\AddToShipoutPicture*{\CoverPic{frontpage.jpg}}
+
 
 \vspace*{1in}
 
@@ -96,16 +96,15 @@ March 19-23, 2017 \\
 \end{tabular}
 
 \begin{tikzpicture}[remember picture, overlay]
-\filldraw[fill=CmisPurple] (0,0) rectangle (1, -2);
+\filldraw[fill=CmisPurple,draw=CmisPurple] (-12cm,-3) rectangle (10cm, -7);
 \end{tikzpicture}
 
 \bigskip
 
-
+\AddToShipoutPicture*{\CoverPic{frontpage.jpg}}
 \end{titlepage}
-\restoregeometry
-\newpage
 \pagenumbering{arabic}
+\restoregeometry
 %\maketitle
 \tableofcontents
 \clearpage

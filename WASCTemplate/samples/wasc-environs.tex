@@ -158,7 +158,14 @@ arc=0mm,
 %    {\color{white}\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \titleformat{\chapter}
 %{\newgeometry{left=0in, right=0pt,top=0pt,bottom=0pt}
-{\Huge\bfseries\raggedright}{}{0em}{\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{\sffamily#1}}}}
+{\thispagestyle{empty}\Huge\bfseries\raggedright}
+{}
+{0em}
+{\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}
+{\textcolor{white}{\sffamily#1}}}%
+\begin{tikzpicture}[remember picture, overlay]
+\filldraw[fill=CmisPurple,draw=CmisPurple] (1,0) rectangle (3, -5);
+\end{tikzpicture}}
 
 \titleformat{\section}
 {\sffamily\bfseries\huge\color{CmisPurple}}
