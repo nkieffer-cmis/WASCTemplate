@@ -45,14 +45,6 @@
 }
         
 
-\newenvironment{findings}
-{
-\noindent\textbf{\sffamily Findings}
-
-}
-{
-%\end{findingsBox}
-}
 
 \newenvironment{evidence}
 {
@@ -77,17 +69,6 @@
 \end{tcolorbox}
 }
 
-\newcommand{\minor}[1]{
-\noindent\textbf{\sffamily#1}
-}
-
-\newcommand{\indicator}[1]{ 
-\noindent\textbf{\sffamily Indicator:} #1
-}
-
-\newcommand{\prompt}[1]{ 
-\noindent\textbf{\sffamily Prompt:} \textit{#1}
-}
 
 \newenvironment{tbl}[4]{ %1 = width, 2 = col format, 3 = caption, 4 = label
 %\rowcolors{2}{lightgray}{white}
@@ -129,6 +110,31 @@
 
 \definecolor{CmisPurple}{HTML}{885190}
 
+
+\newcommand{\minor}[1]{
+\noindent\textbf{\sffamily\color{black!25!CmisPurple}#1}
+}
+
+\newenvironment{findings}
+{
+\minor{ Findings}
+
+}
+{
+%\end{findingsBox}
+}
+
+
+\newcommand{\indicator}[1]{ 
+\noindent{\textbf{\sffamily \color{black!25!CmisPurple}Indicator:}} #1
+}
+
+\newcommand{\prompt}[1]{
+ 
+\noindent{\textbf{\sffamily \color{black!25!CmisPurple}Prompt:}} \textit{#1}
+}
+
+
 \newtcolorbox{sectionbox}{
 coltext=black,
 colback=CmisPurple!50, 
@@ -162,7 +168,7 @@ arc=0mm,
 {}
 {0em}
 {\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}
-{\textcolor{white}{\sffamily#1}}}%
+{\hyphenpenalty=10000\raggedright\textcolor{white}{\sffamily#1}}}%
 \begin{tikzpicture}[remember picture, overlay]
 \filldraw[fill=CmisPurple,draw=CmisPurple] (1,0) rectangle (3, -5);
 \end{tikzpicture}}
@@ -174,13 +180,13 @@ arc=0mm,
 {\includegraphics[height=0.75em]{triangle.png} #1}
 
 \titleformat{\subsection}
-{\sffamily\bfseries\Large\color{CmisPurple!110}}
+{\sffamily\bfseries\Large\color{CmisPurple}}
 {}
 {0pt}
 {#1}[\color{CmisPurple}\titlerule]
 
 \titleformat{\subsubsection}
-{\sffamily\bfseries\large\color{CmisPurple!110}}
+{\sffamily\bfseries\large\color{CmisPurple}}
 {}
 {0pt}
 {#1}
