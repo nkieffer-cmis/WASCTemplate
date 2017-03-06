@@ -5,22 +5,25 @@
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{tabu,tabularx,colortbl,array}
 
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
+\usepackage{times}
 
 \usepackage[labelfont=bf]{caption}
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{pdflscape}
+
+\usepackage{eso-pic}
+\usepackage{transparent}
+\usepackage{pdfpages}
+
 \usepackage{multirow}
+
+
 \usepackage{longtable}
 
 \tabulinesep=^2pt_2pt
-\usepackage{pgfplots}
-%\usepackage{paracol}
 \usepackage{blindtext}
-%\usepackage{capt-of}
 \usepackage{subfig}
 \usepackage{enumitem}
 \setlist{nosep}
@@ -54,67 +57,35 @@
 \floatstyle{plain}
 
 \include{wasc-environs}
-%\usepackage{tocloft} 
-%\setlength{\cftbeforetoctitleskip}{-5.5in}
-%\renewcommand{\cfttoctitlefont}{\color{black}}
 \usepackage{hyperref}
-%\usepackage{scrreport}
-%\renewcommand*{\chapterheadstartvskip}{\vspace*{0.75\textheight}}
 \hypersetup{%
   pdftitle=WASC Self Report,
   colorlinks=true,
   urlcolor=blue,
   linkcolor=blue
-  %urlbordercolor=magenta
 }
+
+\renewcommand{\href}[2]{#2}
 
 \begin{document}
 \newgeometry{left=0.5in, right=0pt,top=0pt,bottom=0pt}
-\begin{titlepage}
-
-
 \pagenumbering{gobble}
-\centering
 
 
-\vspace*{1in}
+\include{titlepage}
 
-\begin{tabular}{cc}
-\parbox[m]{0.2\textwidth}{\includegraphics[width=0.2\textwidth]{CMIS_logo.png}} &
-\parbox[m]{0.8\textwidth}{\raggedright\sffamily\bfseries\color{CmisPurple}{\fontsize{25}{30}\selectfont Chiang Mai International School} \\
-\bigskip
-{\Huge\color{black!50!CmisPurple}
-Focus on Learning 
-
-Self-Study Report}
-
-\bigskip
-WASC Accreditation Visit \\
-March 19-23, 2017 \\
-}\\%&
-%\parbox[m]{0.3\textwidth}{\includegraphics[width=0.20\textwidth]{CMIS_logo.png}} \\
-\end{tabular}
-
-\begin{tikzpicture}[remember picture, overlay]
-\filldraw[fill=CmisPurple,draw=CmisPurple] (-12cm,-3) rectangle (10cm, -7);
-\end{tikzpicture}
-
-\bigskip
-
-\AddToShipoutPicture*{\CoverPic{frontpage.jpg}}
-\end{titlepage}
-\pagenumbering{arabic}
 \restoregeometry
-%\maketitle
+
 \tableofcontents
-\clearpage
 
 \chapter*{Preface}
 \addcontentsline{toc}{chapter}{Preface}
 \AddToShipoutPicture*{\BackgroundPic{title.jpg}}
-\newpage
+\pagenumbering{arabic}
+\setcounter{page}{0}
 
 \include{preface}
+
 \tcbchapter{Student/Community Profile and Supporting Data and Findings}
 \AddToShipoutPicture*{\BackgroundPic{chapter1.jpg}}
 \include{schoolprofile}
@@ -129,25 +100,47 @@ March 19-23, 2017 \\
 
 \tcbchapter{Self-Study Findings}
 \AddToShipoutPicture*{\BackgroundPic{chapter4.jpg}}
+
 %% ORGANIZATION FOR STUDENT LEARNING
 \include{schoolpurpose}
-
 \include{schoolgovernance}
 \include{schoolleadership}
 \include{staffcriterion}
 \include{schoolenvironment}
 \include{reportingstudentprogress}
 \include{improvement}
+
 %% CURRICULUM, INSTRUCTION, AND ASSESSMENT
 \include{curriculuminstructionassessment}
+
 %% SUPPORT FOR STUDENT PERSONAL AND ACADEMIC GROWTH
 \include{supportpersonalacademic}
+
 %% RESOURCE MANAGEMENT AND DEVELOPMENT
 \include{resourcemanagementdevelopment}
+
 \tcbchapter{Schoolwide Action Plan}
 \AddToShipoutPicture*{\BackgroundPic{chapter5chapter.jpg}}
 \include{actionplan}
+
 \listoffigures
+
 \listoftables
+
 \tcbchapter{Appendix}
+\AddToShipoutPicture*{\BackgroundPic{appendix.jpg}}
+\newpage
+%{\centering\includegraphics[width=\textwidth]{graduation}}
+\section{Focus Groups}
+\includepdf[landscape=true,pages={-}]{Appendix-FocusGroups}
+\section{FOL Glossary}
+\includepdf[pages={-}]{AppendixFOLGlossary}
+\section{FOL Works Cited}
+\includepdf[pages={-}]{AppendixFOLWorksCited}
+\section{CMIS Action Plan 2014-2027}
+\includepdf[landscape=true,pages={-}]{CMISActionPlan2014-2017}
+\section{CMIS Data Sandbox Table of Contents}
+\includepdf[landscape=true,pages={-}]{CMISDataSandboxTableofContents}
+\section{Pre-School Reflection}
+\includepdf[pages={-}]{FINALAppendixPreSchoolReflection}
 \end{document}

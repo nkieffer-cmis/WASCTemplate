@@ -154,24 +154,28 @@ coltext=CmisPurple,
 boxsep=0pt,
 %colback=CmisPurple!50, 
 colframe=CmisPurple,
-arc=0mm,
+arc=5mm,
+top=0.75em,
+bottom=0.75em,
+left=0.75em,
+right=0.75em
 %size=small
 }
 
-%\usepackage[explicit]{titlesec}
-%\titleformat{\chapter}[display]
-%\titleformat{\chapter}
-%    {\color{white}\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
 \titleformat{\chapter}
-%{\newgeometry{left=0in, right=0pt,top=0pt,bottom=0pt}
-{\thispagestyle{empty}\Huge\bfseries\raggedright}
+{%\newgeometry{left=0in, right=0pt, top=2in, bottom=2in}
+\thispagestyle{empty}\Huge\bfseries\raggedright}
 {}
 {0em}
 {\colorbox{CmisPurple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}
-{\hyphenpenalty=10000\raggedright\textcolor{white}{\sffamily#1}}}%
-\begin{tikzpicture}[remember picture, overlay]
-\filldraw[fill=CmisPurple,draw=CmisPurple] (1,0) rectangle (3, -5);
-\end{tikzpicture}}
+{\hyphenpenalty=10000\raggedright\textcolor{white}{\sffamily#1}}}}
+
+\titleformat{\chapter}
+{\thispagestyle{empty}\Huge\bfseries\raggedright}
+{}
+{0em}
+{\begin{chapterbox}\raggedright\sffamily#1\end{chapterbox}}
 
 \titleformat{\section}
 {\sffamily\bfseries\huge\color{CmisPurple}}
@@ -191,25 +195,28 @@ arc=0mm,
 {0pt}
 {#1}
 
-%\titlespacing*{\chapter}{0pt}{5.5in}{0pt}
 \newcommand\tcbchapter[1]{%
-%\begin{chapterbox}
 \chapter{#1}
-%\end{chapterbox}
 }
 
 
-\usepackage{eso-pic}
 
  \newcommand\BackgroundPic[1]{%
    \put(0,0){%
-     \parbox[b]{\paperwidth}{%
+     \parbox[b][\paperheight]{\paperwidth}{%
        \vfill
        \centering
-       \includegraphics[width=\textwidth,%\paperwidth,%height=\paperheight,%
-         keepaspectratio]{#1}%
+       {%\transparent{0.5}
+\includegraphics[height=\paperheight,%
+         keepaspectratio]{#1}}%
        \vfill
- }}}
+       }
+   }
+%\put(0,0){%
+%        \transparent{0.9}\textcolor{white}{\rule{\paperwidth}{\paperheight}}
+%    }
+
+}
 
 \newcommand\CoverPic[1]{%
    \put(0,-150){%
